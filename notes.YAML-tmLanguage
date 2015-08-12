@@ -1,0 +1,53 @@
+# [PackageDev] target_format: plist, ext: tmLanguage
+---
+name: Notes
+scopeName: source.notes
+fileTypes: [notes]
+uuid: b9bf3970-f517-46fd-a7f8-ae78fd761f84
+
+patterns:
+- comment: Comments
+  name: comment.notes
+  match: (\/\/.*)
+- comment: Line breaks
+  name: support.function.notes
+  match: ^(\-[\-\=]{2}.*)
+- comment: Ordered bullets
+  name: keyword.operator.notes
+  match: ^(\t*[0-9a-z]+[\:\.]?\)?\s)
+- comment: Unordered bullets
+  name: variable.language.notes
+  match: ^(\t*[\-\=]+\s)
+- comment: Emphasis
+  name: keyword.other.notes
+  match: (\*+[a-zA-Z \t]+\*+)
+- comment: Arrows
+  name: variable.language.notes
+  match: (-+>||=+>||<=+||<-+)
+- comment: Important, surrounded by <...>
+  name: constant.other.date.notes
+  match: (\<[^\>]*\>)
+- comment: Highlights
+  name: nothing.notes
+  match: ^[^\#]*(\#+[^\#]*\#*)
+  captures: 
+    '1': {name: variable.language.notes}
+- comment: Headers
+  name: entity.name.tag.notes
+  match: ^([A-Z].*)
+- comment: Proper headers
+  name: entity.name.tag.notes
+  match: ^([-=]+\s?\w[\w\s]*[\-=]+)
+- comment: Language Tags
+  name: string.regexp.notes
+  match: ^\[\w+\]$
+- comment: Single Quotes
+  name: string.quoted.single.notes
+  match: (\'[^\']*\')
+- comment: Double Quotes
+  name: string.quoted.double.notes
+  match: (\"[^\"]*\")
+- comment: Warning/critical
+  name: invalid.deprecated.notes
+  match: (?![a-zA-Z])\!+[^\!\n\r]+\!*
+...

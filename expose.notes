@@ -1,0 +1,52 @@
+--- Some Title ---
+
+Header Here
+1. ordered (emphasis on params) // comments
+2. list 	"as should these", 'and these', "and *maybe* also 'these' too..."
+3. arrows ---> asdf <-- asdf ==> asdfasf --> a
+	1. asdf ! super important
+	2. asdf
+	3. asdf
+! super important
+- also !inline super important! and !!! multiple !!! bangs
+Another header:
+- unordered
+- list
+	- with
+	- sublists
+		1. mix
+		2. and
+		3. match
+	- of
+		a. any
+		b. kind
+	- including
+		i.	these
+		ii. things
+	- and
+		. each bullet type
+		. should look *different*
+
+# Highlights
+## Lighter Highlights
+And # embedded highlights # as well
+But also *different* highlights
+
+Possible support for syntax injection:
+[html]
+	<h1>and inline syntax highlighting</h1>
+[js]
+	of.all = {major: 'languages'}
+[txt]
+	including plain-text blocks
+
+-----------------------------------------
+ Dividers would be cool
+-----------------------------------------
+
+----------- These too -----------------
+
+---=== And things like this ===---
+
+Title: # this is a comment
+- draw attention to <important> things

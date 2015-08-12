@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>fileTypes</key>
+	<array>
+		<string>notes</string>
+	</array>
+	<key>name</key>
+	<string>Notes</string>
+	<key>patterns</key>
+	<array>
+		<dict>
+			<key>comment</key>
+			<string>Comments</string>
+			<key>match</key>
+			<string>(\/\/.*)</string>
+			<key>name</key>
+			<string>comment.notes</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Line breaks</string>
+			<key>match</key>
+			<string>^(\-[\-\=]{2}.*)</string>
+			<key>name</key>
+			<string>support.function.notes</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Ordered bullets</string>
+			<key>match</key>
+			<string>^(\t*[0-9a-z]+[\:\.]?\)?\s)</string>
+			<key>name</key>
+			<string>keyword.operator.notes</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Unordered bullets</string>
+			<key>match</key>
+			<string>^(\t*[\-\=]+\s)</string>
+			<key>name</key>
+			<string>variable.language.notes</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Emphasis</string>
+			<key>match</key>
+			<string>(\*+[a-zA-Z \t]+\*+)</string>
+			<key>name</key>
+			<string>keyword.other.notes</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Arrows</string>
+			<key>match</key>
+			<string>(-+&gt;||=+&gt;||&lt;=+||&lt;-+)</string>
+			<key>name</key>
+			<string>variable.language.notes</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Important, surrounded by &lt;...&gt;</string>
+			<key>match</key>
+			<string>(\&lt;[^\&gt;]*\&gt;)</string>
+			<key>name</key>
+			<string>constant.other.date.notes</string>
+		</dict>
+		<dict>
+			<key>captures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>variable.language.notes</string>
+				</dict>
+			</dict>
+			<key>comment</key>
+			<string>Highlights</string>
+			<key>match</key>
+			<string>^[^\#]*(\#+[^\#]*\#*)</string>
+			<key>name</key>
+			<string>nothing.notes</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Headers</string>
+			<key>match</key>
+			<string>^([A-Z].*)</string>
+			<key>name</key>
+			<string>entity.name.tag.notes</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Proper headers</string>
+			<key>match</key>
+			<string>^([-=]+\s?\w[\w\s]*[\-=]+)</string>
+			<key>name</key>
+			<string>entity.name.tag.notes</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Language Tags</string>
+			<key>match</key>
+			<string>^\[\w+\]$</string>
+			<key>name</key>
+			<string>string.regexp.notes</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Single Quotes</string>
+			<key>match</key>
+			<string>(\'[^\']*\')</string>
+			<key>name</key>
+			<string>string.quoted.single.notes</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Double Quotes</string>
+			<key>match</key>
+			<string>(\"[^\"]*\")</string>
+			<key>name</key>
+			<string>string.quoted.double.notes</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Warning/critical</string>
+			<key>match</key>
+			<string>(?![a-zA-Z])\!+[^\!\n\r]+\!*</string>
+			<key>name</key>
+			<string>invalid.deprecated.notes</string>
+		</dict>
+	</array>
+	<key>scopeName</key>
+	<string>source.notes</string>
+	<key>uuid</key>
+	<string>b9bf3970-f517-46fd-a7f8-ae78fd761f84</string>
+</dict>
+</plist>
