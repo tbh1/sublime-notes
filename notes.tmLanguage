@@ -12,13 +12,47 @@
 	<array>
 		<dict>
 			<key>begin</key>
-			<string>(\[(actionscript|as)\])</string>
+			<string>(\[)(actionscript|as)(\])</string>
+			<key>beginCaptures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>string.regexp.notes</string>
+				</dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>markup.bold.notes</string>
+				</dict>
+				<key>3</key>
+				<dict>
+					<key>name</key>
+					<string>string.regexp.notes</string>
+				</dict>
+			</dict>
 			<key>comment</key>
 			<string>Actionscript</string>
 			<key>end</key>
-			<string>(\[\\?\/?(end|actionscript|as)\])</string>
-			<key>name</key>
-			<string>string.regexp.notes</string>
+			<string>(\[)(\\?\/?(end|actionscript|as))(\])</string>
+			<key>endCaptures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>string.regexp.notes</string>
+				</dict>
+				<key>3</key>
+				<dict>
+					<key>name</key>
+					<string>markup.bold.notes</string>
+				</dict>
+				<key>4</key>
+				<dict>
+					<key>name</key>
+					<string>string.regexp.notes</string>
+				</dict>
+			</dict>
 			<key>patterns</key>
 			<array>
 				<dict>
@@ -29,13 +63,47 @@
 		</dict>
 		<dict>
 			<key>begin</key>
-			<string>(\[(applescript)\])</string>
+			<string>(\[)(applescript)(\])</string>
+			<key>beginCaptures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>string.regexp.notes</string>
+				</dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>markup.bold.notes</string>
+				</dict>
+				<key>3</key>
+				<dict>
+					<key>name</key>
+					<string>string.regexp.notes</string>
+				</dict>
+			</dict>
 			<key>comment</key>
 			<string>Applescript</string>
 			<key>end</key>
-			<string>(\[\\?\/?(end|applescript)\])</string>
-			<key>name</key>
-			<string>string.regexp.notes</string>
+			<string>(\[)(\\?\/?(end|applescript))(\])</string>
+			<key>endCaptures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>string.regexp.notes</string>
+				</dict>
+				<key>3</key>
+				<dict>
+					<key>name</key>
+					<string>markup.bold.notes</string>
+				</dict>
+				<key>4</key>
+				<dict>
+					<key>name</key>
+					<string>string.regexp.notes</string>
+				</dict>
+			</dict>
 			<key>patterns</key>
 			<array>
 				<dict>
@@ -46,13 +114,47 @@
 		</dict>
 		<dict>
 			<key>begin</key>
-			<string>(\[(asp|asa)\])</string>
+			<string>(\[)(asp|asa)(\])</string>
+			<key>beginCaptures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>string.regexp.notes</string>
+				</dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>markup.bold.notes</string>
+				</dict>
+				<key>3</key>
+				<dict>
+					<key>name</key>
+					<string>string.regexp.notes</string>
+				</dict>
+			</dict>
 			<key>comment</key>
 			<string>ASP</string>
 			<key>end</key>
-			<string>(\[\\?\/?(end|asp|asa)\])</string>
-			<key>name</key>
-			<string>string.regexp.notes</string>
+			<string>(\[)(\\?\/?(end|asp|asa))(\])</string>
+			<key>endCaptures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>string.regexp.notes</string>
+				</dict>
+				<key>3</key>
+				<dict>
+					<key>name</key>
+					<string>markup.bold.notes</string>
+				</dict>
+				<key>4</key>
+				<dict>
+					<key>name</key>
+					<string>string.regexp.notes</string>
+				</dict>
+			</dict>
 			<key>patterns</key>
 			<array>
 				<dict>
@@ -63,13 +165,47 @@
 		</dict>
 		<dict>
 			<key>begin</key>
-			<string>(\[(c)\])</string>
+			<string>(\[)(c)(\])</string>
+			<key>beginCaptures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>string.regexp.notes</string>
+				</dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>markup.bold.notes</string>
+				</dict>
+				<key>3</key>
+				<dict>
+					<key>name</key>
+					<string>string.regexp.notes</string>
+				</dict>
+			</dict>
 			<key>comment</key>
 			<string>C</string>
 			<key>end</key>
-			<string>(\[\\?\/?(end|c)\])</string>
-			<key>name</key>
-			<string>string.regexp.notes</string>
+			<string>(\[)(\\?\/?(end|c))(\])</string>
+			<key>endCaptures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>string.regexp.notes</string>
+				</dict>
+				<key>3</key>
+				<dict>
+					<key>name</key>
+					<string>markup.bold.notes</string>
+				</dict>
+				<key>4</key>
+				<dict>
+					<key>name</key>
+					<string>string.regexp.notes</string>
+				</dict>
+			</dict>
 			<key>patterns</key>
 			<array>
 				<dict>
@@ -80,13 +216,47 @@
 		</dict>
 		<dict>
 			<key>begin</key>
-			<string>(\[(cs|c#|csharp)\])</string>
+			<string>(\[)(cs|c#|csharp)(\])</string>
+			<key>beginCaptures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>string.regexp.notes</string>
+				</dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>markup.bold.notes</string>
+				</dict>
+				<key>3</key>
+				<dict>
+					<key>name</key>
+					<string>string.regexp.notes</string>
+				</dict>
+			</dict>
 			<key>comment</key>
 			<string>C#</string>
 			<key>end</key>
-			<string>(\[\\?\/?(end|cs|c#|csharp)\])</string>
-			<key>name</key>
-			<string>string.regexp.notes</string>
+			<string>(\[)(\\?\/?(end|cs|c#|csharp))(\])</string>
+			<key>endCaptures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>string.regexp.notes</string>
+				</dict>
+				<key>3</key>
+				<dict>
+					<key>name</key>
+					<string>markup.bold.notes</string>
+				</dict>
+				<key>4</key>
+				<dict>
+					<key>name</key>
+					<string>string.regexp.notes</string>
+				</dict>
+			</dict>
 			<key>patterns</key>
 			<array>
 				<dict>
@@ -97,13 +267,47 @@
 		</dict>
 		<dict>
 			<key>begin</key>
-			<string>(\[(c\+\+|cpp|cc|cxx)\])</string>
+			<string>(\[)(c++|cpp|cc|cxx)(\])</string>
+			<key>beginCaptures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>string.regexp.notes</string>
+				</dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>markup.bold.notes</string>
+				</dict>
+				<key>3</key>
+				<dict>
+					<key>name</key>
+					<string>string.regexp.notes</string>
+				</dict>
+			</dict>
 			<key>comment</key>
 			<string>C++</string>
 			<key>end</key>
-			<string>(\[\\?\/?(end|c\+\+|cpp|cc|cxx)\])</string>
-			<key>name</key>
-			<string>string.regexp.notes</string>
+			<string>(\[)(\\?\/?(end|c++|cpp|cc|cxx))(\])</string>
+			<key>endCaptures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>string.regexp.notes</string>
+				</dict>
+				<key>3</key>
+				<dict>
+					<key>name</key>
+					<string>markup.bold.notes</string>
+				</dict>
+				<key>4</key>
+				<dict>
+					<key>name</key>
+					<string>string.regexp.notes</string>
+				</dict>
+			</dict>
 			<key>patterns</key>
 			<array>
 				<dict>
@@ -114,13 +318,47 @@
 		</dict>
 		<dict>
 			<key>begin</key>
-			<string>(\[(clj|clojure)\])</string>
+			<string>(\[)(clj|clojure)(\])</string>
+			<key>beginCaptures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>string.regexp.notes</string>
+				</dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>markup.bold.notes</string>
+				</dict>
+				<key>3</key>
+				<dict>
+					<key>name</key>
+					<string>string.regexp.notes</string>
+				</dict>
+			</dict>
 			<key>comment</key>
 			<string>Clojure</string>
 			<key>end</key>
-			<string>(\[\\?\/?(end|clj|clojure)\])</string>
-			<key>name</key>
-			<string>string.regexp.notes</string>
+			<string>(\[)(\\?\/?(end|clj|clojure))(\])</string>
+			<key>endCaptures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>string.regexp.notes</string>
+				</dict>
+				<key>3</key>
+				<dict>
+					<key>name</key>
+					<string>markup.bold.notes</string>
+				</dict>
+				<key>4</key>
+				<dict>
+					<key>name</key>
+					<string>string.regexp.notes</string>
+				</dict>
+			</dict>
 			<key>patterns</key>
 			<array>
 				<dict>
@@ -131,13 +369,47 @@
 		</dict>
 		<dict>
 			<key>begin</key>
-			<string>(\[(css)\])</string>
+			<string>(\[)(css)(\])</string>
+			<key>beginCaptures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>string.regexp.notes</string>
+				</dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>markup.bold.notes</string>
+				</dict>
+				<key>3</key>
+				<dict>
+					<key>name</key>
+					<string>string.regexp.notes</string>
+				</dict>
+			</dict>
 			<key>comment</key>
 			<string>CSS</string>
 			<key>end</key>
-			<string>(\[\\?\/?(end|css)\])</string>
-			<key>name</key>
-			<string>string.regexp.notes</string>
+			<string>(\[)(\\?\/?(end|css))(\])</string>
+			<key>endCaptures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>string.regexp.notes</string>
+				</dict>
+				<key>3</key>
+				<dict>
+					<key>name</key>
+					<string>markup.bold.notes</string>
+				</dict>
+				<key>4</key>
+				<dict>
+					<key>name</key>
+					<string>string.regexp.notes</string>
+				</dict>
+			</dict>
 			<key>patterns</key>
 			<array>
 				<dict>
@@ -148,13 +420,47 @@
 		</dict>
 		<dict>
 			<key>begin</key>
-			<string>(\[(di)\])</string>
+			<string>(\[)(di)(\])</string>
+			<key>beginCaptures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>string.regexp.notes</string>
+				</dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>markup.bold.notes</string>
+				</dict>
+				<key>3</key>
+				<dict>
+					<key>name</key>
+					<string>string.regexp.notes</string>
+				</dict>
+			</dict>
 			<key>comment</key>
 			<string>D</string>
 			<key>end</key>
-			<string>(\[\\?\/?(end|di)\])</string>
-			<key>name</key>
-			<string>string.regexp.notes</string>
+			<string>(\[)(\\?\/?(end|di))(\])</string>
+			<key>endCaptures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>string.regexp.notes</string>
+				</dict>
+				<key>3</key>
+				<dict>
+					<key>name</key>
+					<string>markup.bold.notes</string>
+				</dict>
+				<key>4</key>
+				<dict>
+					<key>name</key>
+					<string>string.regexp.notes</string>
+				</dict>
+			</dict>
 			<key>patterns</key>
 			<array>
 				<dict>
@@ -165,13 +471,47 @@
 		</dict>
 		<dict>
 			<key>begin</key>
-			<string>(\[(erl|hrl|Emakefile|emakefile|)\])</string>
+			<string>(\[)(erl|hrl|Emakefile|emakefile|)(\])</string>
+			<key>beginCaptures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>string.regexp.notes</string>
+				</dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>markup.bold.notes</string>
+				</dict>
+				<key>3</key>
+				<dict>
+					<key>name</key>
+					<string>string.regexp.notes</string>
+				</dict>
+			</dict>
 			<key>comment</key>
 			<string>Erlang</string>
 			<key>end</key>
-			<string>(\[\\?\/?(end|erl|hrl|Emakefile|emakefile|)\])</string>
-			<key>name</key>
-			<string>string.regexp.notes</string>
+			<string>(\[)(\\?\/?(end|erl|hrl|Emakefile|emakefile|))(\])</string>
+			<key>endCaptures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>string.regexp.notes</string>
+				</dict>
+				<key>3</key>
+				<dict>
+					<key>name</key>
+					<string>markup.bold.notes</string>
+				</dict>
+				<key>4</key>
+				<dict>
+					<key>name</key>
+					<string>string.regexp.notes</string>
+				</dict>
+			</dict>
 			<key>patterns</key>
 			<array>
 				<dict>
@@ -182,13 +522,47 @@
 		</dict>
 		<dict>
 			<key>begin</key>
-			<string>(\[(go|golang)\])</string>
+			<string>(\[)(go|golang)(\])</string>
+			<key>beginCaptures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>string.regexp.notes</string>
+				</dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>markup.bold.notes</string>
+				</dict>
+				<key>3</key>
+				<dict>
+					<key>name</key>
+					<string>string.regexp.notes</string>
+				</dict>
+			</dict>
 			<key>comment</key>
 			<string>Go</string>
 			<key>end</key>
-			<string>(\[\\?\/?(end|go|golang)\])</string>
-			<key>name</key>
-			<string>string.regexp.notes</string>
+			<string>(\[)(\\?\/?(end|go|golang))(\])</string>
+			<key>endCaptures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>string.regexp.notes</string>
+				</dict>
+				<key>3</key>
+				<dict>
+					<key>name</key>
+					<string>markup.bold.notes</string>
+				</dict>
+				<key>4</key>
+				<dict>
+					<key>name</key>
+					<string>string.regexp.notes</string>
+				</dict>
+			</dict>
 			<key>patterns</key>
 			<array>
 				<dict>
@@ -199,13 +573,47 @@
 		</dict>
 		<dict>
 			<key>begin</key>
-			<string>(\[(groovy|gvy)\])</string>
+			<string>(\[)(groovy|gvy)(\])</string>
+			<key>beginCaptures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>string.regexp.notes</string>
+				</dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>markup.bold.notes</string>
+				</dict>
+				<key>3</key>
+				<dict>
+					<key>name</key>
+					<string>string.regexp.notes</string>
+				</dict>
+			</dict>
 			<key>comment</key>
 			<string>Groovy</string>
 			<key>end</key>
-			<string>(\[\\?\/?(end|groovy|gvy)\])</string>
-			<key>name</key>
-			<string>string.regexp.notes</string>
+			<string>(\[)(\\?\/?(end|groovy|gvy))(\])</string>
+			<key>endCaptures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>string.regexp.notes</string>
+				</dict>
+				<key>3</key>
+				<dict>
+					<key>name</key>
+					<string>markup.bold.notes</string>
+				</dict>
+				<key>4</key>
+				<dict>
+					<key>name</key>
+					<string>string.regexp.notes</string>
+				</dict>
+			</dict>
 			<key>patterns</key>
 			<array>
 				<dict>
@@ -216,13 +624,47 @@
 		</dict>
 		<dict>
 			<key>begin</key>
-			<string>(\[(hs|haskell)\])</string>
+			<string>(\[)(hs|haskell)(\])</string>
+			<key>beginCaptures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>string.regexp.notes</string>
+				</dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>markup.bold.notes</string>
+				</dict>
+				<key>3</key>
+				<dict>
+					<key>name</key>
+					<string>string.regexp.notes</string>
+				</dict>
+			</dict>
 			<key>comment</key>
 			<string>Haskell</string>
 			<key>end</key>
-			<string>(\[\\?\/?(end|hs|haskell)\])</string>
-			<key>name</key>
-			<string>string.regexp.notes</string>
+			<string>(\[)(\\?\/?(end|hs|haskell))(\])</string>
+			<key>endCaptures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>string.regexp.notes</string>
+				</dict>
+				<key>3</key>
+				<dict>
+					<key>name</key>
+					<string>markup.bold.notes</string>
+				</dict>
+				<key>4</key>
+				<dict>
+					<key>name</key>
+					<string>string.regexp.notes</string>
+				</dict>
+			</dict>
 			<key>patterns</key>
 			<array>
 				<dict>
@@ -233,13 +675,47 @@
 		</dict>
 		<dict>
 			<key>begin</key>
-			<string>(\[(html|htm|shtml|xhtml|phtml|inc|tmpl|tpl|ctp)\])</string>
+			<string>(\[)(html|htm|shtml|xhtml|phtml|inc|tmpl|tpl|ctp)(\])</string>
+			<key>beginCaptures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>string.regexp.notes</string>
+				</dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>markup.bold.notes</string>
+				</dict>
+				<key>3</key>
+				<dict>
+					<key>name</key>
+					<string>string.regexp.notes</string>
+				</dict>
+			</dict>
 			<key>comment</key>
 			<string>HTML</string>
 			<key>end</key>
-			<string>(\[\\?\/?(end|html|htm|shtml|xhtml|phtml|inc|tmpl|tpl|ctp)\])</string>
-			<key>name</key>
-			<string>string.regexp.notes</string>
+			<string>(\[)(\\?\/?(end|html|htm|shtml|xhtml|phtml|inc|tmpl|tpl|ctp))(\])</string>
+			<key>endCaptures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>string.regexp.notes</string>
+				</dict>
+				<key>3</key>
+				<dict>
+					<key>name</key>
+					<string>markup.bold.notes</string>
+				</dict>
+				<key>4</key>
+				<dict>
+					<key>name</key>
+					<string>string.regexp.notes</string>
+				</dict>
+			</dict>
 			<key>patterns</key>
 			<array>
 				<dict>
@@ -250,13 +726,47 @@
 		</dict>
 		<dict>
 			<key>begin</key>
-			<string>(\[(java|bsh)\])</string>
+			<string>(\[)(java|bsh)(\])</string>
+			<key>beginCaptures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>string.regexp.notes</string>
+				</dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>markup.bold.notes</string>
+				</dict>
+				<key>3</key>
+				<dict>
+					<key>name</key>
+					<string>string.regexp.notes</string>
+				</dict>
+			</dict>
 			<key>comment</key>
 			<string>Java</string>
 			<key>end</key>
-			<string>(\[\\?\/?(end|java|bsh)\])</string>
-			<key>name</key>
-			<string>string.regexp.notes</string>
+			<string>(\[)(\\?\/?(end|java|bsh))(\])</string>
+			<key>endCaptures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>string.regexp.notes</string>
+				</dict>
+				<key>3</key>
+				<dict>
+					<key>name</key>
+					<string>markup.bold.notes</string>
+				</dict>
+				<key>4</key>
+				<dict>
+					<key>name</key>
+					<string>string.regexp.notes</string>
+				</dict>
+			</dict>
 			<key>patterns</key>
 			<array>
 				<dict>
@@ -267,13 +777,47 @@
 		</dict>
 		<dict>
 			<key>begin</key>
-			<string>(\[(js|jsx|htc|javascript)\])</string>
+			<string>(\[)(js|jsx|htc|javascript)(\])</string>
+			<key>beginCaptures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>string.regexp.notes</string>
+				</dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>markup.bold.notes</string>
+				</dict>
+				<key>3</key>
+				<dict>
+					<key>name</key>
+					<string>string.regexp.notes</string>
+				</dict>
+			</dict>
 			<key>comment</key>
 			<string>Javascript</string>
 			<key>end</key>
-			<string>(\[\\?\/?(end|js|jsx|htc|javascript)\])</string>
-			<key>name</key>
-			<string>string.regexp.notes</string>
+			<string>(\[)(\\?\/?(end|js|jsx|htc|javascript))(\])</string>
+			<key>endCaptures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>string.regexp.notes</string>
+				</dict>
+				<key>3</key>
+				<dict>
+					<key>name</key>
+					<string>markup.bold.notes</string>
+				</dict>
+				<key>4</key>
+				<dict>
+					<key>name</key>
+					<string>string.regexp.notes</string>
+				</dict>
+			</dict>
 			<key>patterns</key>
 			<array>
 				<dict>
@@ -284,13 +828,47 @@
 		</dict>
 		<dict>
 			<key>begin</key>
-			<string>(\[(lua)\])</string>
+			<string>(\[)(lua)(\])</string>
+			<key>beginCaptures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>string.regexp.notes</string>
+				</dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>markup.bold.notes</string>
+				</dict>
+				<key>3</key>
+				<dict>
+					<key>name</key>
+					<string>string.regexp.notes</string>
+				</dict>
+			</dict>
 			<key>comment</key>
 			<string>Lua</string>
 			<key>end</key>
-			<string>(\[\\?\/?(end|lua)\])</string>
-			<key>name</key>
-			<string>string.regexp.notes</string>
+			<string>(\[)(\\?\/?(end|lua))(\])</string>
+			<key>endCaptures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>string.regexp.notes</string>
+				</dict>
+				<key>3</key>
+				<dict>
+					<key>name</key>
+					<string>markup.bold.notes</string>
+				</dict>
+				<key>4</key>
+				<dict>
+					<key>name</key>
+					<string>string.regexp.notes</string>
+				</dict>
+			</dict>
 			<key>patterns</key>
 			<array>
 				<dict>
@@ -301,13 +879,47 @@
 		</dict>
 		<dict>
 			<key>begin</key>
-			<string>(\[(gnumakefile|makefile|makefile|ocamlmakefile|make)\])</string>
+			<string>(\[)(gnumakefile|makefile|makefile|ocamlmakefile|make)(\])</string>
+			<key>beginCaptures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>string.regexp.notes</string>
+				</dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>markup.bold.notes</string>
+				</dict>
+				<key>3</key>
+				<dict>
+					<key>name</key>
+					<string>string.regexp.notes</string>
+				</dict>
+			</dict>
 			<key>comment</key>
 			<string>Makefile</string>
 			<key>end</key>
-			<string>(\[\\?\/?(end|gnumakefile|makefile|makefile|ocamlmakefile|make)\])</string>
-			<key>name</key>
-			<string>string.regexp.notes</string>
+			<string>(\[)(\\?\/?(end|gnumakefile|makefile|makefile|ocamlmakefile|make))(\])</string>
+			<key>endCaptures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>string.regexp.notes</string>
+				</dict>
+				<key>3</key>
+				<dict>
+					<key>name</key>
+					<string>markup.bold.notes</string>
+				</dict>
+				<key>4</key>
+				<dict>
+					<key>name</key>
+					<string>string.regexp.notes</string>
+				</dict>
+			</dict>
 			<key>patterns</key>
 			<array>
 				<dict>
@@ -318,13 +930,47 @@
 		</dict>
 		<dict>
 			<key>begin</key>
-			<string>(\[(mdown|markdown|markdn|md)\])</string>
+			<string>(\[)(mdown|markdown|markdn|md)(\])</string>
+			<key>beginCaptures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>string.regexp.notes</string>
+				</dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>markup.bold.notes</string>
+				</dict>
+				<key>3</key>
+				<dict>
+					<key>name</key>
+					<string>string.regexp.notes</string>
+				</dict>
+			</dict>
 			<key>comment</key>
 			<string>Markdown</string>
 			<key>end</key>
-			<string>(\[\\?\/?(end|mdown|markdown|markdn|md)\])</string>
-			<key>name</key>
-			<string>string.regexp.notes</string>
+			<string>(\[)(\\?\/?(end|mdown|markdown|markdn|md))(\])</string>
+			<key>endCaptures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>string.regexp.notes</string>
+				</dict>
+				<key>3</key>
+				<dict>
+					<key>name</key>
+					<string>markup.bold.notes</string>
+				</dict>
+				<key>4</key>
+				<dict>
+					<key>name</key>
+					<string>string.regexp.notes</string>
+				</dict>
+			</dict>
 			<key>patterns</key>
 			<array>
 				<dict>
@@ -335,13 +981,47 @@
 		</dict>
 		<dict>
 			<key>begin</key>
-			<string>(\[(matlab)\])</string>
+			<string>(\[)(matlab)(\])</string>
+			<key>beginCaptures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>string.regexp.notes</string>
+				</dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>markup.bold.notes</string>
+				</dict>
+				<key>3</key>
+				<dict>
+					<key>name</key>
+					<string>string.regexp.notes</string>
+				</dict>
+			</dict>
 			<key>comment</key>
 			<string>Matlab</string>
 			<key>end</key>
-			<string>(\[\\?\/?(end|matlab)\])</string>
-			<key>name</key>
-			<string>string.regexp.notes</string>
+			<string>(\[)(\\?\/?(end|matlab))(\])</string>
+			<key>endCaptures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>string.regexp.notes</string>
+				</dict>
+				<key>3</key>
+				<dict>
+					<key>name</key>
+					<string>markup.bold.notes</string>
+				</dict>
+				<key>4</key>
+				<dict>
+					<key>name</key>
+					<string>string.regexp.notes</string>
+				</dict>
+			</dict>
 			<key>patterns</key>
 			<array>
 				<dict>
@@ -352,13 +1032,47 @@
 		</dict>
 		<dict>
 			<key>begin</key>
-			<string>(\[(objective-c|objc|m|h)\])</string>
+			<string>(\[)(objective-c|objc|m|h)(\])</string>
+			<key>beginCaptures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>string.regexp.notes</string>
+				</dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>markup.bold.notes</string>
+				</dict>
+				<key>3</key>
+				<dict>
+					<key>name</key>
+					<string>string.regexp.notes</string>
+				</dict>
+			</dict>
 			<key>comment</key>
 			<string>Objective-c</string>
 			<key>end</key>
-			<string>(\[\\?\/?(end|objective-c|objc|m|h)\])</string>
-			<key>name</key>
-			<string>string.regexp.notes</string>
+			<string>(\[)(\\?\/?(end|objective-c|objc|m|h))(\])</string>
+			<key>endCaptures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>string.regexp.notes</string>
+				</dict>
+				<key>3</key>
+				<dict>
+					<key>name</key>
+					<string>markup.bold.notes</string>
+				</dict>
+				<key>4</key>
+				<dict>
+					<key>name</key>
+					<string>string.regexp.notes</string>
+				</dict>
+			</dict>
 			<key>patterns</key>
 			<array>
 				<dict>
@@ -369,13 +1083,47 @@
 		</dict>
 		<dict>
 			<key>begin</key>
-			<string>(\[(ocaml|ml|mli)\])</string>
+			<string>(\[)(ocaml|ml|mli)(\])</string>
+			<key>beginCaptures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>string.regexp.notes</string>
+				</dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>markup.bold.notes</string>
+				</dict>
+				<key>3</key>
+				<dict>
+					<key>name</key>
+					<string>string.regexp.notes</string>
+				</dict>
+			</dict>
 			<key>comment</key>
 			<string>Ocaml</string>
 			<key>end</key>
-			<string>(\[\\?\/?(end|ocaml|ml|mli)\])</string>
-			<key>name</key>
-			<string>string.regexp.notes</string>
+			<string>(\[)(\\?\/?(end|ocaml|ml|mli))(\])</string>
+			<key>endCaptures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>string.regexp.notes</string>
+				</dict>
+				<key>3</key>
+				<dict>
+					<key>name</key>
+					<string>markup.bold.notes</string>
+				</dict>
+				<key>4</key>
+				<dict>
+					<key>name</key>
+					<string>string.regexp.notes</string>
+				</dict>
+			</dict>
 			<key>patterns</key>
 			<array>
 				<dict>
@@ -386,13 +1134,47 @@
 		</dict>
 		<dict>
 			<key>begin</key>
-			<string>(\[(p|pas|pascal)\])</string>
+			<string>(\[)(p|pas|pascal)(\])</string>
+			<key>beginCaptures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>string.regexp.notes</string>
+				</dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>markup.bold.notes</string>
+				</dict>
+				<key>3</key>
+				<dict>
+					<key>name</key>
+					<string>string.regexp.notes</string>
+				</dict>
+			</dict>
 			<key>comment</key>
 			<string>Pascal</string>
 			<key>end</key>
-			<string>(\[\\?\/?(end|p|pas|pascal)\])</string>
-			<key>name</key>
-			<string>string.regexp.notes</string>
+			<string>(\[)(\\?\/?(end|p|pas|pascal))(\])</string>
+			<key>endCaptures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>string.regexp.notes</string>
+				</dict>
+				<key>3</key>
+				<dict>
+					<key>name</key>
+					<string>markup.bold.notes</string>
+				</dict>
+				<key>4</key>
+				<dict>
+					<key>name</key>
+					<string>string.regexp.notes</string>
+				</dict>
+			</dict>
 			<key>patterns</key>
 			<array>
 				<dict>
@@ -403,13 +1185,47 @@
 		</dict>
 		<dict>
 			<key>begin</key>
-			<string>(\[(pm|pl|pod|t|perl)\])</string>
+			<string>(\[)(pm|pl|pod|t|perl)(\])</string>
+			<key>beginCaptures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>string.regexp.notes</string>
+				</dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>markup.bold.notes</string>
+				</dict>
+				<key>3</key>
+				<dict>
+					<key>name</key>
+					<string>string.regexp.notes</string>
+				</dict>
+			</dict>
 			<key>comment</key>
 			<string>Perl</string>
 			<key>end</key>
-			<string>(\[\\?\/?(end|pm|pl|pod|t|perl)\])</string>
-			<key>name</key>
-			<string>string.regexp.notes</string>
+			<string>(\[)(\\?\/?(end|pm|pl|pod|t|perl))(\])</string>
+			<key>endCaptures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>string.regexp.notes</string>
+				</dict>
+				<key>3</key>
+				<dict>
+					<key>name</key>
+					<string>markup.bold.notes</string>
+				</dict>
+				<key>4</key>
+				<dict>
+					<key>name</key>
+					<string>string.regexp.notes</string>
+				</dict>
+			</dict>
 			<key>patterns</key>
 			<array>
 				<dict>
@@ -420,13 +1236,47 @@
 		</dict>
 		<dict>
 			<key>begin</key>
-			<string>(\[(php)\])</string>
+			<string>(\[)(php)(\])</string>
+			<key>beginCaptures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>string.regexp.notes</string>
+				</dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>markup.bold.notes</string>
+				</dict>
+				<key>3</key>
+				<dict>
+					<key>name</key>
+					<string>string.regexp.notes</string>
+				</dict>
+			</dict>
 			<key>comment</key>
 			<string>PHP</string>
 			<key>end</key>
-			<string>(\[\\?\/?(end|php)\])</string>
-			<key>name</key>
-			<string>string.regexp.notes</string>
+			<string>(\[)(\\?\/?(end|php))(\])</string>
+			<key>endCaptures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>string.regexp.notes</string>
+				</dict>
+				<key>3</key>
+				<dict>
+					<key>name</key>
+					<string>markup.bold.notes</string>
+				</dict>
+				<key>4</key>
+				<dict>
+					<key>name</key>
+					<string>string.regexp.notes</string>
+				</dict>
+			</dict>
 			<key>patterns</key>
 			<array>
 				<dict>
@@ -437,13 +1287,47 @@
 		</dict>
 		<dict>
 			<key>begin</key>
-			<string>(\[(cpy|py|python|rpy|pyw)\])</string>
+			<string>(\[)(cpy|py|python|rpy|pyw)(\])</string>
+			<key>beginCaptures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>string.regexp.notes</string>
+				</dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>markup.bold.notes</string>
+				</dict>
+				<key>3</key>
+				<dict>
+					<key>name</key>
+					<string>string.regexp.notes</string>
+				</dict>
+			</dict>
 			<key>comment</key>
 			<string>Python</string>
 			<key>end</key>
-			<string>(\[\\?\/?(end|cpy|py|python|rpy|pyw)\])</string>
-			<key>name</key>
-			<string>string.regexp.notes</string>
+			<string>(\[)(\\?\/?(end|cpy|py|python|rpy|pyw))(\])</string>
+			<key>endCaptures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>string.regexp.notes</string>
+				</dict>
+				<key>3</key>
+				<dict>
+					<key>name</key>
+					<string>markup.bold.notes</string>
+				</dict>
+				<key>4</key>
+				<dict>
+					<key>name</key>
+					<string>string.regexp.notes</string>
+				</dict>
+			</dict>
 			<key>patterns</key>
 			<array>
 				<dict>
@@ -454,13 +1338,47 @@
 		</dict>
 		<dict>
 			<key>begin</key>
-			<string>(\[(r|s|rprofile)\])</string>
+			<string>(\[)(r|s|rprofile)(\])</string>
+			<key>beginCaptures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>string.regexp.notes</string>
+				</dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>markup.bold.notes</string>
+				</dict>
+				<key>3</key>
+				<dict>
+					<key>name</key>
+					<string>string.regexp.notes</string>
+				</dict>
+			</dict>
 			<key>comment</key>
 			<string>R</string>
 			<key>end</key>
-			<string>(\[\\?\/?(end|r|s|rprofile)\])</string>
-			<key>name</key>
-			<string>string.regexp.notes</string>
+			<string>(\[)(\\?\/?(end|r|s|rprofile))(\])</string>
+			<key>endCaptures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>string.regexp.notes</string>
+				</dict>
+				<key>3</key>
+				<dict>
+					<key>name</key>
+					<string>markup.bold.notes</string>
+				</dict>
+				<key>4</key>
+				<dict>
+					<key>name</key>
+					<string>string.regexp.notes</string>
+				</dict>
+			</dict>
 			<key>patterns</key>
 			<array>
 				<dict>
@@ -471,13 +1389,47 @@
 		</dict>
 		<dict>
 			<key>begin</key>
-			<string>(\[(re|regex|regexp)\])</string>
+			<string>(\[)(re|regex|regexp)(\])</string>
+			<key>beginCaptures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>string.regexp.notes</string>
+				</dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>markup.bold.notes</string>
+				</dict>
+				<key>3</key>
+				<dict>
+					<key>name</key>
+					<string>string.regexp.notes</string>
+				</dict>
+			</dict>
 			<key>comment</key>
 			<string>Regex</string>
 			<key>end</key>
-			<string>(\[\\?\/?(end|re|regex|regexp)\])</string>
-			<key>name</key>
-			<string>string.regexp.notes</string>
+			<string>(\[)(\\?\/?(end|re|regex|regexp))(\])</string>
+			<key>endCaptures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>string.regexp.notes</string>
+				</dict>
+				<key>3</key>
+				<dict>
+					<key>name</key>
+					<string>markup.bold.notes</string>
+				</dict>
+				<key>4</key>
+				<dict>
+					<key>name</key>
+					<string>string.regexp.notes</string>
+				</dict>
+			</dict>
 			<key>patterns</key>
 			<array>
 				<dict>
@@ -488,13 +1440,47 @@
 		</dict>
 		<dict>
 			<key>begin</key>
-			<string>(\[(rb|rbx|rjs|ruby|Rakefile|rake|cgi|fcgi|gemspec|irbrc|capfile|gemfile)\])</string>
+			<string>(\[)(rb|rbx|rjs|ruby|Rakefile|rake|cgi|fcgi|gemspec|irbrc|capfile|gemfile)(\])</string>
+			<key>beginCaptures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>string.regexp.notes</string>
+				</dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>markup.bold.notes</string>
+				</dict>
+				<key>3</key>
+				<dict>
+					<key>name</key>
+					<string>string.regexp.notes</string>
+				</dict>
+			</dict>
 			<key>comment</key>
 			<string>Ruby</string>
 			<key>end</key>
-			<string>(\[\\?\/?(end|rb|rbx|rjs|ruby|Rakefile|rake|cgi|fcgi|gemspec|irbrc|capfile|gemfile)\])</string>
-			<key>name</key>
-			<string>string.regexp.notes</string>
+			<string>(\[)(\\?\/?(end|rb|rbx|rjs|ruby|Rakefile|rake|cgi|fcgi|gemspec|irbrc|capfile|gemfile))(\])</string>
+			<key>endCaptures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>string.regexp.notes</string>
+				</dict>
+				<key>3</key>
+				<dict>
+					<key>name</key>
+					<string>markup.bold.notes</string>
+				</dict>
+				<key>4</key>
+				<dict>
+					<key>name</key>
+					<string>string.regexp.notes</string>
+				</dict>
+			</dict>
 			<key>patterns</key>
 			<array>
 				<dict>
@@ -505,13 +1491,47 @@
 		</dict>
 		<dict>
 			<key>begin</key>
-			<string>(\[(scala)\])</string>
+			<string>(\[)(scala)(\])</string>
+			<key>beginCaptures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>string.regexp.notes</string>
+				</dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>markup.bold.notes</string>
+				</dict>
+				<key>3</key>
+				<dict>
+					<key>name</key>
+					<string>string.regexp.notes</string>
+				</dict>
+			</dict>
 			<key>comment</key>
 			<string>Scala</string>
 			<key>end</key>
-			<string>(\[\\?\/?(end|scala)\])</string>
-			<key>name</key>
-			<string>string.regexp.notes</string>
+			<string>(\[)(\\?\/?(end|scala))(\])</string>
+			<key>endCaptures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>string.regexp.notes</string>
+				</dict>
+				<key>3</key>
+				<dict>
+					<key>name</key>
+					<string>markup.bold.notes</string>
+				</dict>
+				<key>4</key>
+				<dict>
+					<key>name</key>
+					<string>string.regexp.notes</string>
+				</dict>
+			</dict>
 			<key>patterns</key>
 			<array>
 				<dict>
@@ -522,13 +1542,47 @@
 		</dict>
 		<dict>
 			<key>begin</key>
-			<string>(\[(sh|bash|zsh|bashrc)\])</string>
+			<string>(\[)(sh|bash|zsh|bashrc)(\])</string>
+			<key>beginCaptures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>string.regexp.notes</string>
+				</dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>markup.bold.notes</string>
+				</dict>
+				<key>3</key>
+				<dict>
+					<key>name</key>
+					<string>string.regexp.notes</string>
+				</dict>
+			</dict>
 			<key>comment</key>
 			<string>Shell</string>
 			<key>end</key>
-			<string>(\[\\?\/?(end|sh|bash|zsh|bashrc)\])</string>
-			<key>name</key>
-			<string>string.regexp.notes</string>
+			<string>(\[)(\\?\/?(end|sh|bash|zsh|bashrc))(\])</string>
+			<key>endCaptures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>string.regexp.notes</string>
+				</dict>
+				<key>3</key>
+				<dict>
+					<key>name</key>
+					<string>markup.bold.notes</string>
+				</dict>
+				<key>4</key>
+				<dict>
+					<key>name</key>
+					<string>string.regexp.notes</string>
+				</dict>
+			</dict>
 			<key>patterns</key>
 			<array>
 				<dict>
@@ -539,13 +1593,47 @@
 		</dict>
 		<dict>
 			<key>begin</key>
-			<string>(\[(sql|dml|ddl|mysql)\])</string>
+			<string>(\[)(sql|dml|ddl|mysql)(\])</string>
+			<key>beginCaptures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>string.regexp.notes</string>
+				</dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>markup.bold.notes</string>
+				</dict>
+				<key>3</key>
+				<dict>
+					<key>name</key>
+					<string>string.regexp.notes</string>
+				</dict>
+			</dict>
 			<key>comment</key>
 			<string>SQL</string>
 			<key>end</key>
-			<string>(\[\\?\/?(end|sql|dml|ddl|mysql)\])</string>
-			<key>name</key>
-			<string>string.regexp.notes</string>
+			<string>(\[)(\\?\/?(end|sql|dml|ddl|mysql))(\])</string>
+			<key>endCaptures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>string.regexp.notes</string>
+				</dict>
+				<key>3</key>
+				<dict>
+					<key>name</key>
+					<string>markup.bold.notes</string>
+				</dict>
+				<key>4</key>
+				<dict>
+					<key>name</key>
+					<string>string.regexp.notes</string>
+				</dict>
+			</dict>
 			<key>patterns</key>
 			<array>
 				<dict>
@@ -556,13 +1644,47 @@
 		</dict>
 		<dict>
 			<key>begin</key>
-			<string>(\[(tcl)\])</string>
+			<string>(\[)(tcl)(\])</string>
+			<key>beginCaptures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>string.regexp.notes</string>
+				</dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>markup.bold.notes</string>
+				</dict>
+				<key>3</key>
+				<dict>
+					<key>name</key>
+					<string>string.regexp.notes</string>
+				</dict>
+			</dict>
 			<key>comment</key>
 			<string>TCL</string>
 			<key>end</key>
-			<string>(\[\\?\/?(end|tcl)\])</string>
-			<key>name</key>
-			<string>string.regexp.notes</string>
+			<string>(\[)(\\?\/?(end|tcl))(\])</string>
+			<key>endCaptures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>string.regexp.notes</string>
+				</dict>
+				<key>3</key>
+				<dict>
+					<key>name</key>
+					<string>markup.bold.notes</string>
+				</dict>
+				<key>4</key>
+				<dict>
+					<key>name</key>
+					<string>string.regexp.notes</string>
+				</dict>
+			</dict>
 			<key>patterns</key>
 			<array>
 				<dict>
@@ -573,13 +1695,47 @@
 		</dict>
 		<dict>
 			<key>begin</key>
-			<string>(\[(tex|latex|sty|cls)\])</string>
+			<string>(\[)(tex|latex|sty|cls)(\])</string>
+			<key>beginCaptures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>string.regexp.notes</string>
+				</dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>markup.bold.notes</string>
+				</dict>
+				<key>3</key>
+				<dict>
+					<key>name</key>
+					<string>string.regexp.notes</string>
+				</dict>
+			</dict>
 			<key>comment</key>
 			<string>TeX</string>
 			<key>end</key>
-			<string>(\[\\?\/?(end|tex|latex|sty|cls)\])</string>
-			<key>name</key>
-			<string>string.regexp.notes</string>
+			<string>(\[)(\\?\/?(end|tex|latex|sty|cls))(\])</string>
+			<key>endCaptures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>string.regexp.notes</string>
+				</dict>
+				<key>3</key>
+				<dict>
+					<key>name</key>
+					<string>markup.bold.notes</string>
+				</dict>
+				<key>4</key>
+				<dict>
+					<key>name</key>
+					<string>string.regexp.notes</string>
+				</dict>
+			</dict>
 			<key>patterns</key>
 			<array>
 				<dict>
@@ -590,13 +1746,47 @@
 		</dict>
 		<dict>
 			<key>begin</key>
-			<string>(\[(xml|tld|jsp|pt|cpt|dtml|rss|opml)\])</string>
+			<string>(\[)(xml|tld|jsp|pt|cpt|dtml|rss|opml)(\])</string>
+			<key>beginCaptures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>string.regexp.notes</string>
+				</dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>markup.bold.notes</string>
+				</dict>
+				<key>3</key>
+				<dict>
+					<key>name</key>
+					<string>string.regexp.notes</string>
+				</dict>
+			</dict>
 			<key>comment</key>
 			<string>XML</string>
 			<key>end</key>
-			<string>(\[\\?\/?(end|xml|tld|jsp|pt|cpt|dtml|rss|opml)\])</string>
-			<key>name</key>
-			<string>string.regexp.notes</string>
+			<string>(\[)(\\?\/?(end|xml|tld|jsp|pt|cpt|dtml|rss|opml))(\])</string>
+			<key>endCaptures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>string.regexp.notes</string>
+				</dict>
+				<key>3</key>
+				<dict>
+					<key>name</key>
+					<string>markup.bold.notes</string>
+				</dict>
+				<key>4</key>
+				<dict>
+					<key>name</key>
+					<string>string.regexp.notes</string>
+				</dict>
+			</dict>
 			<key>patterns</key>
 			<array>
 				<dict>
@@ -607,13 +1797,47 @@
 		</dict>
 		<dict>
 			<key>begin</key>
-			<string>(\[(xsl|xslt)\])</string>
+			<string>(\[)(xsl|xslt)(\])</string>
+			<key>beginCaptures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>string.regexp.notes</string>
+				</dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>markup.bold.notes</string>
+				</dict>
+				<key>3</key>
+				<dict>
+					<key>name</key>
+					<string>string.regexp.notes</string>
+				</dict>
+			</dict>
 			<key>comment</key>
 			<string>XSL</string>
 			<key>end</key>
-			<string>(\[\\?\/?(end|xsl|xslt)\])</string>
-			<key>name</key>
-			<string>string.regexp.notes</string>
+			<string>(\[)(\\?\/?(end|xsl|xslt))(\])</string>
+			<key>endCaptures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>string.regexp.notes</string>
+				</dict>
+				<key>3</key>
+				<dict>
+					<key>name</key>
+					<string>markup.bold.notes</string>
+				</dict>
+				<key>4</key>
+				<dict>
+					<key>name</key>
+					<string>string.regexp.notes</string>
+				</dict>
+			</dict>
 			<key>patterns</key>
 			<array>
 				<dict>
@@ -624,13 +1848,47 @@
 		</dict>
 		<dict>
 			<key>begin</key>
-			<string>(\[(yaml|yml)\])</string>
+			<string>(\[)(yaml|yml)(\])</string>
+			<key>beginCaptures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>string.regexp.notes</string>
+				</dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>markup.bold.notes</string>
+				</dict>
+				<key>3</key>
+				<dict>
+					<key>name</key>
+					<string>string.regexp.notes</string>
+				</dict>
+			</dict>
 			<key>comment</key>
 			<string>YAML</string>
 			<key>end</key>
-			<string>(\[\\?\/?(end|yaml|yml)\])</string>
-			<key>name</key>
-			<string>string.regexp.notes</string>
+			<string>(\[)(\\?\/?(end|yaml|yml))(\])</string>
+			<key>endCaptures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>string.regexp.notes</string>
+				</dict>
+				<key>3</key>
+				<dict>
+					<key>name</key>
+					<string>markup.bold.notes</string>
+				</dict>
+				<key>4</key>
+				<dict>
+					<key>name</key>
+					<string>string.regexp.notes</string>
+				</dict>
+			</dict>
 			<key>patterns</key>
 			<array>
 				<dict>

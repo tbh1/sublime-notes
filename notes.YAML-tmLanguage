@@ -4,245 +4,494 @@ name: Notes
 scopeName: source.notes
 fileTypes: [notes]
 uuid: b9bf3970-f517-46fd-a7f8-ae78fd761f84
-
-# - comment:
-#   name: string.regexp.notes
-#   begin: (\[\])
-#   end: (\[\\?\/?(end|)\])
-#   patterns:
-#   - {include: source.}
-
 patterns:
 - comment: Actionscript
-  name: string.regexp.notes
-  begin: (\[(actionscript|as)\])
-  end: (\[\\?\/?(end|actionscript|as)\])
-  patterns: 
+  begin: (\[)(actionscript|as)(\])
+  beginCaptures:
+    '1': {name: string.regexp.notes}
+    '2': {name: markup.bold.notes}
+    '3': {name: string.regexp.notes}
+  end: (\[)(\\?\/?(end|actionscript|as))(\])
+  endCaptures:
+    '1': {name: string.regexp.notes}
+    '3': {name: markup.bold.notes}
+    '4': {name: string.regexp.notes}
+  patterns:
   - {include: source.actionscript.2}
 - comment: Applescript
-  name: string.regexp.notes
-  begin: (\[(applescript)\])
-  end: (\[\\?\/?(end|applescript)\])
-  patterns: 
+  begin: (\[)(applescript)(\])
+  beginCaptures:
+    '1': {name: string.regexp.notes}
+    '2': {name: markup.bold.notes}
+    '3': {name: string.regexp.notes}
+  end: (\[)(\\?\/?(end|applescript))(\])
+  endCaptures:
+    '1': {name: string.regexp.notes}
+    '3': {name: markup.bold.notes}
+    '4': {name: string.regexp.notes}
+  patterns:
   - {include: source.applescript}
 - comment: ASP
-  name: string.regexp.notes
-  begin: (\[(asp|asa)\])
-  end: (\[\\?\/?(end|asp|asa)\])
-  patterns: 
+  begin: (\[)(asp|asa)(\])
+  beginCaptures:
+    '1': {name: string.regexp.notes}
+    '2': {name: markup.bold.notes}
+    '3': {name: string.regexp.notes}
+  end: (\[)(\\?\/?(end|asp|asa))(\])
+  endCaptures:
+    '1': {name: string.regexp.notes}
+    '3': {name: markup.bold.notes}
+    '4': {name: string.regexp.notes}
+  patterns:
   - {include: source.asp}
 - comment: C
-  name: string.regexp.notes
-  begin: (\[(c)\])
-  end: (\[\\?\/?(end|c)\])
-  patterns: 
+  begin: (\[)(c)(\])
+  beginCaptures:
+    '1': {name: string.regexp.notes}
+    '2': {name: markup.bold.notes}
+    '3': {name: string.regexp.notes}
+  end: (\[)(\\?\/?(end|c))(\])
+  endCaptures:
+    '1': {name: string.regexp.notes}
+    '3': {name: markup.bold.notes}
+    '4': {name: string.regexp.notes}
+  patterns:
   - {include: source.c}
 - comment: C#
-  name: string.regexp.notes
-  begin: (\[(cs|c#|csharp)\])
-  end: (\[\\?\/?(end|cs|c#|csharp)\])
-  patterns: 
+  begin: (\[)(cs|c#|csharp)(\])
+  beginCaptures:
+    '1': {name: string.regexp.notes}
+    '2': {name: markup.bold.notes}
+    '3': {name: string.regexp.notes}
+  end: (\[)(\\?\/?(end|cs|c#|csharp))(\])
+  endCaptures:
+    '1': {name: string.regexp.notes}
+    '3': {name: markup.bold.notes}
+    '4': {name: string.regexp.notes}
+  patterns:
   - {include: source.cs}
 - comment: C++
-  name: string.regexp.notes
-  begin: (\[(c\+\+|cpp|cc|cxx)\])
-  end: (\[\\?\/?(end|c\+\+|cpp|cc|cxx)\])
-  patterns: 
+  begin: (\[)(c++|cpp|cc|cxx)(\])
+  beginCaptures:
+    '1': {name: string.regexp.notes}
+    '2': {name: markup.bold.notes}
+    '3': {name: string.regexp.notes}
+  end: (\[)(\\?\/?(end|c++|cpp|cc|cxx))(\])
+  endCaptures:
+    '1': {name: string.regexp.notes}
+    '3': {name: markup.bold.notes}
+    '4': {name: string.regexp.notes}
+  patterns:
   - {include: source.c++}
 - comment: Clojure
-  name: string.regexp.notes
-  begin: (\[(clj|clojure)\])
-  end: (\[\\?\/?(end|clj|clojure)\])
-  patterns: 
+  begin: (\[)(clj|clojure)(\])
+  beginCaptures:
+    '1': {name: string.regexp.notes}
+    '2': {name: markup.bold.notes}
+    '3': {name: string.regexp.notes}
+  end: (\[)(\\?\/?(end|clj|clojure))(\])
+  endCaptures:
+    '1': {name: string.regexp.notes}
+    '3': {name: markup.bold.notes}
+    '4': {name: string.regexp.notes}
+  patterns:
   - {include: source.clojure}
 - comment: CSS
-  name: string.regexp.notes
-  begin: (\[(css)\])
-  end: (\[\\?\/?(end|css)\])
-  patterns: 
+  begin: (\[)(css)(\])
+  beginCaptures:
+    '1': {name: string.regexp.notes}
+    '2': {name: markup.bold.notes}
+    '3': {name: string.regexp.notes}
+  end: (\[)(\\?\/?(end|css))(\])
+  endCaptures:
+    '1': {name: string.regexp.notes}
+    '3': {name: markup.bold.notes}
+    '4': {name: string.regexp.notes}
+  patterns:
   - {include: source.css}
 - comment: D
-  name: string.regexp.notes
-  begin: (\[(di)\])
-  end: (\[\\?\/?(end|di)\])
-  patterns: 
+  begin: (\[)(di)(\])
+  beginCaptures:
+    '1': {name: string.regexp.notes}
+    '2': {name: markup.bold.notes}
+    '3': {name: string.regexp.notes}
+  end: (\[)(\\?\/?(end|di))(\])
+  endCaptures:
+    '1': {name: string.regexp.notes}
+    '3': {name: markup.bold.notes}
+    '4': {name: string.regexp.notes}
+  patterns:
   - {include: source.d}
 - comment: Erlang
-  name: string.regexp.notes
-  begin: (\[(erl|hrl|Emakefile|emakefile|)\])
-  end: (\[\\?\/?(end|erl|hrl|Emakefile|emakefile|)\])
-  patterns: 
+  begin: (\[)(erl|hrl|Emakefile|emakefile|)(\])
+  beginCaptures:
+    '1': {name: string.regexp.notes}
+    '2': {name: markup.bold.notes}
+    '3': {name: string.regexp.notes}
+  end: (\[)(\\?\/?(end|erl|hrl|Emakefile|emakefile|))(\])
+  endCaptures:
+    '1': {name: string.regexp.notes}
+    '3': {name: markup.bold.notes}
+    '4': {name: string.regexp.notes}
+  patterns:
   - {include: source.erlang}
 - comment: Go
-  name: string.regexp.notes
-  begin: (\[(go|golang)\])
-  end: (\[\\?\/?(end|go|golang)\])
-  patterns: 
+  begin: (\[)(go|golang)(\])
+  beginCaptures:
+    '1': {name: string.regexp.notes}
+    '2': {name: markup.bold.notes}
+    '3': {name: string.regexp.notes}
+  end: (\[)(\\?\/?(end|go|golang))(\])
+  endCaptures:
+    '1': {name: string.regexp.notes}
+    '3': {name: markup.bold.notes}
+    '4': {name: string.regexp.notes}
+  patterns:
   - {include: source.go}
 - comment: Groovy
-  name: string.regexp.notes
-  begin: (\[(groovy|gvy)\])
-  end: (\[\\?\/?(end|groovy|gvy)\])
-  patterns: 
+  begin: (\[)(groovy|gvy)(\])
+  beginCaptures:
+    '1': {name: string.regexp.notes}
+    '2': {name: markup.bold.notes}
+    '3': {name: string.regexp.notes}
+  end: (\[)(\\?\/?(end|groovy|gvy))(\])
+  endCaptures:
+    '1': {name: string.regexp.notes}
+    '3': {name: markup.bold.notes}
+    '4': {name: string.regexp.notes}
+  patterns:
   - {include: source.groovy}
 - comment: Haskell
-  name: string.regexp.notes
-  begin: (\[(hs|haskell)\])
-  end: (\[\\?\/?(end|hs|haskell)\])
-  patterns: 
+  begin: (\[)(hs|haskell)(\])
+  beginCaptures:
+    '1': {name: string.regexp.notes}
+    '2': {name: markup.bold.notes}
+    '3': {name: string.regexp.notes}
+  end: (\[)(\\?\/?(end|hs|haskell))(\])
+  endCaptures:
+    '1': {name: string.regexp.notes}
+    '3': {name: markup.bold.notes}
+    '4': {name: string.regexp.notes}
+  patterns:
   - {include: source.haskell}
 - comment: HTML
-  name: string.regexp.notes
-  begin: (\[(html|htm|shtml|xhtml|phtml|inc|tmpl|tpl|ctp)\])
-  end: (\[\\?\/?(end|html|htm|shtml|xhtml|phtml|inc|tmpl|tpl|ctp)\])
-  patterns: 
+  begin: (\[)(html|htm|shtml|xhtml|phtml|inc|tmpl|tpl|ctp)(\])
+  beginCaptures:
+    '1': {name: string.regexp.notes}
+    '2': {name: markup.bold.notes}
+    '3': {name: string.regexp.notes}
+  end: (\[)(\\?\/?(end|html|htm|shtml|xhtml|phtml|inc|tmpl|tpl|ctp))(\])
+  endCaptures:
+    '1': {name: string.regexp.notes}
+    '3': {name: markup.bold.notes}
+    '4': {name: string.regexp.notes}
+  patterns:
   - {include: text.html.basic}
 - comment: Java
-  name: string.regexp.notes
-  begin: (\[(java|bsh)\])
-  end: (\[\\?\/?(end|java|bsh)\])
-  patterns: 
+  begin: (\[)(java|bsh)(\])
+  beginCaptures:
+    '1': {name: string.regexp.notes}
+    '2': {name: markup.bold.notes}
+    '3': {name: string.regexp.notes}
+  end: (\[)(\\?\/?(end|java|bsh))(\])
+  endCaptures:
+    '1': {name: string.regexp.notes}
+    '3': {name: markup.bold.notes}
+    '4': {name: string.regexp.notes}
+  patterns:
   - {include: source.java}
 - comment: Javascript
-  name: string.regexp.notes
-  begin: (\[(js|jsx|htc|javascript)\])
-  end: (\[\\?\/?(end|js|jsx|htc|javascript)\])
-  patterns: 
+  begin: (\[)(js|jsx|htc|javascript)(\])
+  beginCaptures:
+    '1': {name: string.regexp.notes}
+    '2': {name: markup.bold.notes}
+    '3': {name: string.regexp.notes}
+  end: (\[)(\\?\/?(end|js|jsx|htc|javascript))(\])
+  endCaptures:
+    '1': {name: string.regexp.notes}
+    '3': {name: markup.bold.notes}
+    '4': {name: string.regexp.notes}
+  patterns:
   - {include: source.js}
 - comment: Lua
-  name: string.regexp.notes
-  begin: (\[(lua)\])
-  end: (\[\\?\/?(end|lua)\])
-  patterns: 
+  begin: (\[)(lua)(\])
+  beginCaptures:
+    '1': {name: string.regexp.notes}
+    '2': {name: markup.bold.notes}
+    '3': {name: string.regexp.notes}
+  end: (\[)(\\?\/?(end|lua))(\])
+  endCaptures:
+    '1': {name: string.regexp.notes}
+    '3': {name: markup.bold.notes}
+    '4': {name: string.regexp.notes}
+  patterns:
   - {include: source.lua}
 - comment: Makefile
-  name: string.regexp.notes
-  begin: (\[(gnumakefile|makefile|makefile|ocamlmakefile|make)\])
-  end: (\[\\?\/?(end|gnumakefile|makefile|makefile|ocamlmakefile|make)\])
-  patterns: 
+  begin: (\[)(gnumakefile|makefile|makefile|ocamlmakefile|make)(\])
+  beginCaptures:
+    '1': {name: string.regexp.notes}
+    '2': {name: markup.bold.notes}
+    '3': {name: string.regexp.notes}
+  end: (\[)(\\?\/?(end|gnumakefile|makefile|makefile|ocamlmakefile|make))(\])
+  endCaptures:
+    '1': {name: string.regexp.notes}
+    '3': {name: markup.bold.notes}
+    '4': {name: string.regexp.notes}
+  patterns:
   - {include: source.makefile}
 - comment: Markdown
-  name: string.regexp.notes
-  begin: (\[(mdown|markdown|markdn|md)\])
-  end: (\[\\?\/?(end|mdown|markdown|markdn|md)\])
-  patterns: 
+  begin: (\[)(mdown|markdown|markdn|md)(\])
+  beginCaptures:
+    '1': {name: string.regexp.notes}
+    '2': {name: markup.bold.notes}
+    '3': {name: string.regexp.notes}
+  end: (\[)(\\?\/?(end|mdown|markdown|markdn|md))(\])
+  endCaptures:
+    '1': {name: string.regexp.notes}
+    '3': {name: markup.bold.notes}
+    '4': {name: string.regexp.notes}
+  patterns:
   - {include: text.html.markdown}
 - comment: Matlab
-  name: string.regexp.notes
-  begin: (\[(matlab)\])
-  end: (\[\\?\/?(end|matlab)\])
-  patterns: 
+  begin: (\[)(matlab)(\])
+  beginCaptures:
+    '1': {name: string.regexp.notes}
+    '2': {name: markup.bold.notes}
+    '3': {name: string.regexp.notes}
+  end: (\[)(\\?\/?(end|matlab))(\])
+  endCaptures:
+    '1': {name: string.regexp.notes}
+    '3': {name: markup.bold.notes}
+    '4': {name: string.regexp.notes}
+  patterns:
   - {include: source.matlab}
 - comment: Objective-c
-  name: string.regexp.notes
-  begin: (\[(objective-c|objc|m|h)\])
-  end: (\[\\?\/?(end|objective-c|objc|m|h)\])
-  patterns: 
+  begin: (\[)(objective-c|objc|m|h)(\])
+  beginCaptures:
+    '1': {name: string.regexp.notes}
+    '2': {name: markup.bold.notes}
+    '3': {name: string.regexp.notes}
+  end: (\[)(\\?\/?(end|objective-c|objc|m|h))(\])
+  endCaptures:
+    '1': {name: string.regexp.notes}
+    '3': {name: markup.bold.notes}
+    '4': {name: string.regexp.notes}
+  patterns:
   - {include: source.objc}
 - comment: Ocaml
-  name: string.regexp.notes
-  begin: (\[(ocaml|ml|mli)\])
-  end: (\[\\?\/?(end|ocaml|ml|mli)\])
-  patterns: 
+  begin: (\[)(ocaml|ml|mli)(\])
+  beginCaptures:
+    '1': {name: string.regexp.notes}
+    '2': {name: markup.bold.notes}
+    '3': {name: string.regexp.notes}
+  end: (\[)(\\?\/?(end|ocaml|ml|mli))(\])
+  endCaptures:
+    '1': {name: string.regexp.notes}
+    '3': {name: markup.bold.notes}
+    '4': {name: string.regexp.notes}
+  patterns:
   - {include: source.ocaml}
 - comment: Pascal
-  name: string.regexp.notes
-  begin: (\[(p|pas|pascal)\])
-  end: (\[\\?\/?(end|p|pas|pascal)\])
-  patterns: 
+  begin: (\[)(p|pas|pascal)(\])
+  beginCaptures:
+    '1': {name: string.regexp.notes}
+    '2': {name: markup.bold.notes}
+    '3': {name: string.regexp.notes}
+  end: (\[)(\\?\/?(end|p|pas|pascal))(\])
+  endCaptures:
+    '1': {name: string.regexp.notes}
+    '3': {name: markup.bold.notes}
+    '4': {name: string.regexp.notes}
+  patterns:
   - {include: source.pascal}
 - comment: Perl
-  name: string.regexp.notes
-  begin: (\[(pm|pl|pod|t|perl)\])
-  end: (\[\\?\/?(end|pm|pl|pod|t|perl)\])
-  patterns: 
+  begin: (\[)(pm|pl|pod|t|perl)(\])
+  beginCaptures:
+    '1': {name: string.regexp.notes}
+    '2': {name: markup.bold.notes}
+    '3': {name: string.regexp.notes}
+  end: (\[)(\\?\/?(end|pm|pl|pod|t|perl))(\])
+  endCaptures:
+    '1': {name: string.regexp.notes}
+    '3': {name: markup.bold.notes}
+    '4': {name: string.regexp.notes}
+  patterns:
   - {include: source.perl}
 - comment: PHP
-  name: string.regexp.notes
-  begin: (\[(php)\])
-  end: (\[\\?\/?(end|php)\])
-  patterns: 
+  begin: (\[)(php)(\])
+  beginCaptures:
+    '1': {name: string.regexp.notes}
+    '2': {name: markup.bold.notes}
+    '3': {name: string.regexp.notes}
+  end: (\[)(\\?\/?(end|php))(\])
+  endCaptures:
+    '1': {name: string.regexp.notes}
+    '3': {name: markup.bold.notes}
+    '4': {name: string.regexp.notes}
+  patterns:
   - {include: source.php}
 - comment: Python
-  name: string.regexp.notes
-  begin: (\[(cpy|py|python|rpy|pyw)\])
-  end: (\[\\?\/?(end|cpy|py|python|rpy|pyw)\])
-  patterns: 
+  begin: (\[)(cpy|py|python|rpy|pyw)(\])
+  beginCaptures:
+    '1': {name: string.regexp.notes}
+    '2': {name: markup.bold.notes}
+    '3': {name: string.regexp.notes}
+  end: (\[)(\\?\/?(end|cpy|py|python|rpy|pyw))(\])
+  endCaptures:
+    '1': {name: string.regexp.notes}
+    '3': {name: markup.bold.notes}
+    '4': {name: string.regexp.notes}
+  patterns:
   - {include: source.python}
 - comment: R
-  name: string.regexp.notes
-  begin: (\[(r|s|rprofile)\])
-  end: (\[\\?\/?(end|r|s|rprofile)\])
-  patterns: 
+  begin: (\[)(r|s|rprofile)(\])
+  beginCaptures:
+    '1': {name: string.regexp.notes}
+    '2': {name: markup.bold.notes}
+    '3': {name: string.regexp.notes}
+  end: (\[)(\\?\/?(end|r|s|rprofile))(\])
+  endCaptures:
+    '1': {name: string.regexp.notes}
+    '3': {name: markup.bold.notes}
+    '4': {name: string.regexp.notes}
+  patterns:
   - {include: source.r}
 - comment: Regex
-  name: string.regexp.notes
-  begin: (\[(re|regex|regexp)\])
-  end: (\[\\?\/?(end|re|regex|regexp)\])
-  patterns: 
+  begin: (\[)(re|regex|regexp)(\])
+  beginCaptures:
+    '1': {name: string.regexp.notes}
+    '2': {name: markup.bold.notes}
+    '3': {name: string.regexp.notes}
+  end: (\[)(\\?\/?(end|re|regex|regexp))(\])
+  endCaptures:
+    '1': {name: string.regexp.notes}
+    '3': {name: markup.bold.notes}
+    '4': {name: string.regexp.notes}
+  patterns:
   - {include: source.regexp}
 - comment: Ruby
-  name: string.regexp.notes
-  begin: (\[(rb|rbx|rjs|ruby|Rakefile|rake|cgi|fcgi|gemspec|irbrc|capfile|gemfile)\])
-  end: (\[\\?\/?(end|rb|rbx|rjs|ruby|Rakefile|rake|cgi|fcgi|gemspec|irbrc|capfile|gemfile)\])
-  patterns: 
+  begin: (\[)(rb|rbx|rjs|ruby|Rakefile|rake|cgi|fcgi|gemspec|irbrc|capfile|gemfile)(\])
+  beginCaptures:
+    '1': {name: string.regexp.notes}
+    '2': {name: markup.bold.notes}
+    '3': {name: string.regexp.notes}
+  end: (\[)(\\?\/?(end|rb|rbx|rjs|ruby|Rakefile|rake|cgi|fcgi|gemspec|irbrc|capfile|gemfile))(\])
+  endCaptures:
+    '1': {name: string.regexp.notes}
+    '3': {name: markup.bold.notes}
+    '4': {name: string.regexp.notes}
+  patterns:
   - {include: source.ruby}
 - comment: Scala
-  name: string.regexp.notes
-  begin: (\[(scala)\])
-  end: (\[\\?\/?(end|scala)\])
-  patterns: 
+  begin: (\[)(scala)(\])
+  beginCaptures:
+    '1': {name: string.regexp.notes}
+    '2': {name: markup.bold.notes}
+    '3': {name: string.regexp.notes}
+  end: (\[)(\\?\/?(end|scala))(\])
+  endCaptures:
+    '1': {name: string.regexp.notes}
+    '3': {name: markup.bold.notes}
+    '4': {name: string.regexp.notes}
+  patterns:
   - {include: source.scala}
 - comment: Shell
-  name: string.regexp.notes
-  begin: (\[(sh|bash|zsh|bashrc)\])
-  end: (\[\\?\/?(end|sh|bash|zsh|bashrc)\])
-  patterns: 
+  begin: (\[)(sh|bash|zsh|bashrc)(\])
+  beginCaptures:
+    '1': {name: string.regexp.notes}
+    '2': {name: markup.bold.notes}
+    '3': {name: string.regexp.notes}
+  end: (\[)(\\?\/?(end|sh|bash|zsh|bashrc))(\])
+  endCaptures:
+    '1': {name: string.regexp.notes}
+    '3': {name: markup.bold.notes}
+    '4': {name: string.regexp.notes}
+  patterns:
   - {include: source.shell}
 - comment: SQL
-  name: string.regexp.notes
-  begin: (\[(sql|dml|ddl|mysql)\])
-  end: (\[\\?\/?(end|sql|dml|ddl|mysql)\])
-  patterns: 
+  begin: (\[)(sql|dml|ddl|mysql)(\])
+  beginCaptures:
+    '1': {name: string.regexp.notes}
+    '2': {name: markup.bold.notes}
+    '3': {name: string.regexp.notes}
+  end: (\[)(\\?\/?(end|sql|dml|ddl|mysql))(\])
+  endCaptures:
+    '1': {name: string.regexp.notes}
+    '3': {name: markup.bold.notes}
+    '4': {name: string.regexp.notes}
+  patterns:
   - {include: source.sql}
 - comment: TCL
-  name: string.regexp.notes
-  begin: (\[(tcl)\])
-  end: (\[\\?\/?(end|tcl)\])
-  patterns: 
+  begin: (\[)(tcl)(\])
+  beginCaptures:
+    '1': {name: string.regexp.notes}
+    '2': {name: markup.bold.notes}
+    '3': {name: string.regexp.notes}
+  end: (\[)(\\?\/?(end|tcl))(\])
+  endCaptures:
+    '1': {name: string.regexp.notes}
+    '3': {name: markup.bold.notes}
+    '4': {name: string.regexp.notes}
+  patterns:
   - {include: source.tcl}
 - comment: TeX
-  name: string.regexp.notes
-  begin: (\[(tex|latex|sty|cls)\])
-  end: (\[\\?\/?(end|tex|latex|sty|cls)\])
-  patterns: 
+  begin: (\[)(tex|latex|sty|cls)(\])
+  beginCaptures:
+    '1': {name: string.regexp.notes}
+    '2': {name: markup.bold.notes}
+    '3': {name: string.regexp.notes}
+  end: (\[)(\\?\/?(end|tex|latex|sty|cls))(\])
+  endCaptures:
+    '1': {name: string.regexp.notes}
+    '3': {name: markup.bold.notes}
+    '4': {name: string.regexp.notes}
+  patterns:
   - {include: text.tex}
 - comment: XML
-  name: string.regexp.notes
-  begin: (\[(xml|tld|jsp|pt|cpt|dtml|rss|opml)\])
-  end: (\[\\?\/?(end|xml|tld|jsp|pt|cpt|dtml|rss|opml)\])
-  patterns: 
+  begin: (\[)(xml|tld|jsp|pt|cpt|dtml|rss|opml)(\])
+  beginCaptures:
+    '1': {name: string.regexp.notes}
+    '2': {name: markup.bold.notes}
+    '3': {name: string.regexp.notes}
+  end: (\[)(\\?\/?(end|xml|tld|jsp|pt|cpt|dtml|rss|opml))(\])
+  endCaptures:
+    '1': {name: string.regexp.notes}
+    '3': {name: markup.bold.notes}
+    '4': {name: string.regexp.notes}
+  patterns:
   - {include: text.xml}
 - comment: XSL
-  name: string.regexp.notes
-  begin: (\[(xsl|xslt)\])
-  end: (\[\\?\/?(end|xsl|xslt)\])
-  patterns: 
+  begin: (\[)(xsl|xslt)(\])
+  beginCaptures:
+    '1': {name: string.regexp.notes}
+    '2': {name: markup.bold.notes}
+    '3': {name: string.regexp.notes}
+  end: (\[)(\\?\/?(end|xsl|xslt))(\])
+  endCaptures:
+    '1': {name: string.regexp.notes}
+    '3': {name: markup.bold.notes}
+    '4': {name: string.regexp.notes}
+  patterns:
   - {include: text.xml.xsl}
 - comment: YAML
-  name: string.regexp.notes
-  begin: (\[(yaml|yml)\])
-  end: (\[\\?\/?(end|yaml|yml)\])
-  patterns: 
+  begin: (\[)(yaml|yml)(\])
+  beginCaptures:
+    '1': {name: string.regexp.notes}
+    '2': {name: markup.bold.notes}
+    '3': {name: string.regexp.notes}
+  end: (\[)(\\?\/?(end|yaml|yml))(\])
+  endCaptures:
+    '1': {name: string.regexp.notes}
+    '3': {name: markup.bold.notes}
+    '4': {name: string.regexp.notes}
+  patterns:
   - {include: source.yaml}
-
 - comment: Urls
   name: support.class.notes
   match: (([a-zA-Z]{3,6}3?\:\/\/)?([-a-zA-Z0-9@:%._\+~#=]{2,256}\.[a-z]{2,6}\b([-a-zA-Z0-9@:%_\+.~#?&//=]*)))
 - comment: Comments
   name: comment.notes
   match: (?<!\:)(\/\/.*)
-
 - comment: Line breaks
   name: support.function.notes
   match: ^(\-[\-\=]{2}.*)
