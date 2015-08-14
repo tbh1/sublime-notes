@@ -6,9 +6,12 @@ fileTypes: [notes]
 uuid: b9bf3970-f517-46fd-a7f8-ae78fd761f84
 
 patterns:
+- comment: Urls
+  name: support.class.notes
+  match: (([a-zA-Z]{3,6}3?\:\/\/)?([-a-zA-Z0-9@:%._\+~#=]{2,256}\.[a-z]{2,6}\b([-a-zA-Z0-9@:%_\+.~#?&//=]*)))
 - comment: Comments
   name: comment.notes
-  match: (\/\/.*)
+  match: (?<!\:)(\/\/.*)
 - comment: Line breaks
   name: support.function.notes
   match: ^(\-[\-\=]{2}.*)

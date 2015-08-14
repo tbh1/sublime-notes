@@ -10,8 +10,9 @@ Header Here:
 ! super important
 - also !inline super important! and !!! multiple !!! bangs
 
-Not a header
-not a bullet
+Not a header...
+Supports www.urls.com
+- even with https://www.protocols.com, POP3://some.pop3.site
 
 Another header:
 - unordered
@@ -29,7 +30,7 @@ Another header:
 		ii. things
 	- and
 		. each bullet type
-		. should look *different*
+		. should be *clear*
 
 # Highlights
 ## Another highlight
@@ -44,7 +45,7 @@ But also *different* highlights
 
 ---=== And things like this ===---
 
-Title: # this is a comment
+Title: // this is a comment
 - draw attention to <important> things
 
 Possible support for syntax injection:

@@ -12,9 +12,17 @@
 	<array>
 		<dict>
 			<key>comment</key>
+			<string>Urls</string>
+			<key>match</key>
+			<string>(([a-zA-Z]{3,6}3?\:\/\/)?([-a-zA-Z0-9@:%._\+~#=]{2,256}\.[a-z]{2,6}\b([-a-zA-Z0-9@:%_\+.~#?&amp;//=]*)))</string>
+			<key>name</key>
+			<string>support.class.notes</string>
+		</dict>
+		<dict>
+			<key>comment</key>
 			<string>Comments</string>
 			<key>match</key>
-			<string>(\/\/.*)</string>
+			<string>(?&lt;!\:)(\/\/.*)</string>
 			<key>name</key>
 			<string>comment.notes</string>
 		</dict>
