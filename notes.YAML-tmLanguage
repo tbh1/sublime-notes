@@ -14,10 +14,14 @@ patterns:
   match: ^(\-[\-\=]{2}.*)
 - comment: Ordered bullets
   name: keyword.operator.notes
-  match: ^(\t*[0-9a-z]+[\:\.]?\)?\s)
+  match: ^([ \t]*[0-9a-z]+[\:\.\)]\)?\s(\w+\:)?)
+  captures:
+    '2': {name: keyword.other.notes}
 - comment: Unordered bullets
   name: variable.language.notes
-  match: ^(\t*[\-\=]+\s)
+  match: ^(\t*[\-\=\.]+\s(\w+\:)?)
+  captures:
+    '2': {name: keyword.other.notes}
 - comment: Emphasis
   name: keyword.other.notes
   match: (\*+[a-zA-Z \t]+\*+)
@@ -34,7 +38,7 @@ patterns:
     '1': {name: variable.language.notes}
 - comment: Headers
   name: entity.name.tag.notes
-  match: ^([A-Z].*)
+  match: ^([A-Z].*\:)$
 - comment: Proper headers
   name: entity.name.tag.notes
   match: ^([-=]+\s?\w[\w\s]*[\-=]+)
@@ -50,4 +54,10 @@ patterns:
 - comment: Warning/critical
   name: invalid.deprecated.notes
   match: (?![a-zA-Z])\!+[^\!\n\r]+\!*
+- comment: Top-level vocab definitions
+  name: keyword.other.notes
+  match: ^(\w*\s?\w*\:)$
+- comment: Emphasis on parentheses
+  name: keyword.operator
+  match: ([\(\)])
 ...

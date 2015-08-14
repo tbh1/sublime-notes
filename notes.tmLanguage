@@ -27,18 +27,34 @@
 			<string>support.function.notes</string>
 		</dict>
 		<dict>
+			<key>captures</key>
+			<dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>keyword.other.notes</string>
+				</dict>
+			</dict>
 			<key>comment</key>
 			<string>Ordered bullets</string>
 			<key>match</key>
-			<string>^(\t*[0-9a-z]+[\:\.]?\)?\s)</string>
+			<string>^([ \t]*[0-9a-z]+[\:\.\)]\)?\s(\w+\:)?)</string>
 			<key>name</key>
 			<string>keyword.operator.notes</string>
 		</dict>
 		<dict>
+			<key>captures</key>
+			<dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>keyword.other.notes</string>
+				</dict>
+			</dict>
 			<key>comment</key>
 			<string>Unordered bullets</string>
 			<key>match</key>
-			<string>^(\t*[\-\=]+\s)</string>
+			<string>^(\t*[\-\=\.]+\s(\w+\:)?)</string>
 			<key>name</key>
 			<string>variable.language.notes</string>
 		</dict>
@@ -86,7 +102,7 @@
 			<key>comment</key>
 			<string>Headers</string>
 			<key>match</key>
-			<string>^([A-Z].*)</string>
+			<string>^([A-Z].*\:)$</string>
 			<key>name</key>
 			<string>entity.name.tag.notes</string>
 		</dict>
@@ -129,6 +145,22 @@
 			<string>(?![a-zA-Z])\!+[^\!\n\r]+\!*</string>
 			<key>name</key>
 			<string>invalid.deprecated.notes</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Top-level vocab definitions</string>
+			<key>match</key>
+			<string>^(\w*\s?\w*\:)$</string>
+			<key>name</key>
+			<string>keyword.other.notes</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Emphasis on parentheses</string>
+			<key>match</key>
+			<string>([\(\)])</string>
+			<key>name</key>
+			<string>keyword.operator</string>
 		</dict>
 	</array>
 	<key>scopeName</key>
