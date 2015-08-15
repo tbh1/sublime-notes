@@ -5,7 +5,7 @@
 If you're like me, you find yourself taking a lot of notes in Sublime. I like syntax highlighting, and I thought it would be cool to see it applied to every day note taking.
 Now you can enjoy your beautiful color schemes while taking everyday notes!
 
-![alt tag](https://raw.github.com/toxicblu/st3-notes/img/notes-quicklook.png)
+![alt tag](/../docs/img/notes-quicklook.png?raw=true)
 
 ##Installation
 Install via Sublime's [Package Manager](https://sublime.wbond.net/installation).
@@ -19,7 +19,7 @@ Install via Sublime's [Package Manager](https://sublime.wbond.net/installation).
 - or save as a .notes file
 
 ##Features
-![alt tag](https://raw.github.com/toxicblu/st3-notes/img/notes-quicklook.png)
+![alt tag](/../master/docs/img/notes-quicklook.png?raw=true)
 
 ##Supported languages for snippets
 - Actionscript
