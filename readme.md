@@ -5,7 +5,7 @@
 If you're like me, you find yourself taking a lot of notes in Sublime. I like syntax highlighting, and I thought it would be cool to see it applied to every day note taking.
 Now you can enjoy your beautiful color schemes while taking everyday notes!
 
-![alt tag](docs/img/notes-singalr-example.png?raw=true)
+![alt tag](docs/img/notes-signalr-example.png?raw=true)
 
 ##Installation
 Install via Sublime's [Package Manager](https://sublime.wbond.net/installation).
