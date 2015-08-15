@@ -1,0 +1,43 @@
+Code Snippets:
+- 30+ major languages supported!
+[js]
+	(function (a, b) {
+		return {of.all = {major: 'languages'}
+	})(alpha, beta);
+[js]
+
+Ordered and Unordered Lists:
+- Unordered lists
+	- dash bullets
+	. dot bullets
+- Ordered lists
+	1. numbered bullets and
+		a. alphabetic bullets
+		ii. supports roman numerals
+		3.) optional parens
+
+Emphasis:
+ # highlighting #
+ <keywords>
+ *another form*
+ !! super important !!
+ (parens)
+
+Vocabulary:
+- word: and its definition
+
+Titles:
+--------------- Inline Titles ----------------
+
+or
+
+----------------------------------------------
+	Block Titles
+----------------------------------------------
+
+URLS:
+- www.foobar.com
+- or ftp://www.foobar.com
+
+Arrows:
+- this --> and ==> and <-- etc.

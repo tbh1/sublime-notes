@@ -1,0 +1,51 @@
+------=== SignalR with ASP.NET and Javacript ===------
+
+Core Concepts:
+- SignalR: allows real-time web functionality
+	- simple API for creating remote procedure calls (RPC)
+- Resiliance: multiple fallback channels
+	1. web sockets // ideal
+	2. long polling
+	3. server sent events
+	4. forever frames
+
+---------------------------------------
+ 	Example: simple chat room
+---------------------------------------
+Example code from http://www.asp.net/signalr
+
+ASP.NET:
+- create a <Hub> to handle connections and broadcast messages
+- hub gets message --> broadcasts to all subscribers
+[c#]
+	namespace SignalRChat
+	{
+	    public class ChatHub : Hub
+	    {
+	        public void Send(string name, string message)
+	        {
+	            // Call the broadcastMessage method to update clients.
+	            Clients.All.broadcastMessage(name, message);
+	        }
+	    }
+	}
+[end]
+
+Javascript:
+- define methods to handle/broadcast events
+!! Don't forget to declare the proxy!
+[js]
+	$(function () {
+	    var chat = $.connection.chatHub;
+	    chat.client.broadcastMessage = function (name, message) {
+	        handleMessage(name, message);
+	    };
+	    $.connection.hub.start().done(function () {
+	        $('#sendmessage').click(function () {
+	            // Call the Send method on the hub. 
+	            chat.server.send($('#displayname').val(), $('#message').val());
+	            $('#message').val('').focus();
+	        });
+	    });
+	});
+[end]

@@ -1,0 +1,123 @@
+---- Quick Start Guide -----
+
+Notes is a simple and easy-to-use language for taking every-day notes.
+To enable, either set syntax to Notes or save as a .notes file.
+The language was designed to follow normal note taking behavior.
+The main advantage of .notes is its syntax support for 30+ major languages!
+
+Below are the core concepts of the Notes language
+
+Headers:
+- as the line above, any first-level text ending in a colon
+
+Titles:
+- Separate sections of notes via dashes
+----------- Inline Title ------------
+
+-----------------------------------------
+ 			Block Title
+-----------------------------------------
+
+Unordered Lists:
+- Either dashes
+. or periods
+	- Supports nesting
+
+Ordered Lists:
+1. same as unordered, but numbered
+2. like this
+	a. or lettered
+	i. including roman numerals
+	ii. like this
+3) just follow number/letter with . ) or both
+4. mix and match ordered and unordered lists
+	- like this
+	a. and this
+
+Highlights:
+	# can be full line
+	or #inline# as you please
+
+Emphasis:
+	- surround with <carrots>
+	- or with *astrisks*
+	- !! use bangs for super-important things
+		- full line (above), and !!inline!! as well
+URLS:
+	- urls are highlighted, and right click to open
+	- www.example.com, or with protocols: pop3://www.example.com
+
+Vocabulary:
+	- word: its definition
+Arrows:
+	- Usefule for showing flow
+	- like this --> or => this, or <--- this
+
+Code Snippets:
+	- This is the best part of .notes!
+	- simply surround code snippets with [language_name or file extension] and [end]
+
+[js]
+	(function (a, b) {
+		return {of.all = {major: 'languages'}
+	})(alpha, beta);
+[end]
+
+[html]
+	<h1 sytle="font-size:2em;">and inline syntax highlighting</h1>
+	<script type="javascript">
+		window.foo = bar;
+	</script>
+[end]
+
+[python]
+	class myLogger:
+	    def __init__(self):
+	        pass
+	    def write(self,data):
+	        file = open("mylog.txt","a")
+	        file.write(data)
+	        file.close()
+[end]
+
+Notes also supports inline snippets
+	- like so [java] System.out.println("Hello!"); [end], see?
+
+Below is the current list of supported languages:
+1.	Actionscript
+2.	Applescript
+3.	ASP
+4.	C
+5.	C++
+6.	C#
+7.	Clojure
+8.	CSS
+9.	D
+10.	Erlang
+11.	Go
+12.	Groovy
+13.	Haskell
+14.	HTML
+15.	Java
+16.	Javascript
+17.	Lua
+18.	Makefile
+19.	Markdown
+20.	Matlab
+21.	Objective-C
+22.	Ocaml
+23.	Pascal
+24.	Perl
+25.	PHP
+26.	Python
+27.	R
+28.	Regex
+29.	Ruby
+30.	Scala
+31.	Shell
+32.	SQL
+33.	TCL
+34.	TeX
+35.	XML
+36.	XSL
+37.	YAML

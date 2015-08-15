@@ -71,12 +71,12 @@ patterns:
   patterns:
   - {include: source.cs}
 - comment: C++
-  begin: (\[)(c++|cpp|cc|cxx)(\])
+  begin: (\[)(c\+\+|cpp|cc|cxx)(\])
   beginCaptures:
     '1': {name: string.regexp.notes}
     '2': {name: markup.bold.notes}
     '3': {name: string.regexp.notes}
-  end: (\[)(\\?\/?(end|c++|cpp|cc|cxx))(\])
+  end: (\[)(\\?\/?(end|c\+\+|cpp|cc|cxx))(\])
   endCaptures:
     '1': {name: string.regexp.notes}
     '3': {name: markup.bold.notes}

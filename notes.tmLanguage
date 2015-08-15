@@ -267,7 +267,7 @@
 		</dict>
 		<dict>
 			<key>begin</key>
-			<string>(\[)(c++|cpp|cc|cxx)(\])</string>
+			<string>(\[)(c\+\+|cpp|cc|cxx)(\])</string>
 			<key>beginCaptures</key>
 			<dict>
 				<key>1</key>
@@ -289,7 +289,7 @@
 			<key>comment</key>
 			<string>C++</string>
 			<key>end</key>
-			<string>(\[)(\\?\/?(end|c++|cpp|cc|cxx))(\])</string>
+			<string>(\[)(\\?\/?(end|c\+\+|cpp|cc|cxx))(\])</string>
 			<key>endCaptures</key>
 			<dict>
 				<key>1</key>
