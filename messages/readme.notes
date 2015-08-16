@@ -68,7 +68,7 @@ Code Snippets:
 [end]
 
 [html]
-	<h1 sytle="font-size:2em;">and inline syntax highlighting</h1>
+	<h1 style="font-size:2em;">and inline syntax highlighting</h1>
 	<script type="javascript">
 		window.foo = bar;
 	</script>
