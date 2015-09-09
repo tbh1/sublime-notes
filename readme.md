@@ -59,3 +59,5 @@ Install via Sublime's [Package Manager](https://sublime.wbond.net/installation).
 - XML
 - XSL
 - YAML
+
+Screenshots were taken using [Seti_UI color scheme](https://packagecontrol.io/packages/Seti_UI)
