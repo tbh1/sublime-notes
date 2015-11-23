@@ -13,7 +13,7 @@ Install via Sublime's [Package Manager](https://sublime.wbond.net/installation).
 - type `install`, select `Package Control: Install Package`
 - type `Notes`, select `Notes`
 
-##Useage
+##Usage
 - Open the command palette: `⌘+shift+p` on MacOS/Linux, `ctrl+shift+p` on Windows
 - type `notes`
 - or save as a .notes file
