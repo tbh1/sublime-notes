@@ -21,6 +21,10 @@ Install via Sublime's [Package Manager](https://sublime.wbond.net/installation).
 ##Features
 ![alt tag](docs/img/notes-quicklook.png?raw=true)
 
+##Snippets
+- generate block title: `--- + TAB`
+- generate code snippet: `[ + TAB`
+
 ##Supported languages for snippets
 - Actionscript
 - Applescript
