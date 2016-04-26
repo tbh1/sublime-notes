@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+[${1:js}]
+	${2://code}
+[\\${1:js}]
+]]></content>
+<description>Code Snippet</description>
+<tabTrigger>[</tabTrigger>
+<scope>text.notes</scope>
+</snippet>
