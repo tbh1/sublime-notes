@@ -516,7 +516,7 @@ patterns:
   match: (\<[^\>]*\>)
 - comment: Highlights
   name: nothing.notes
-  match: ^[^\#]*(\#+[^\#]*\#*)
+  match: (\#+[^\#]*\#*)
   captures:
     '1': {name: variable.language.notes}
 - comment: Headers

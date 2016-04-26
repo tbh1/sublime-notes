@@ -1989,7 +1989,7 @@
 			<key>comment</key>
 			<string>Highlights</string>
 			<key>match</key>
-			<string>^[^\#]*(\#+[^\#]*\#*)</string>
+			<string>(\#+[^\#]*\#*)</string>
 			<key>name</key>
 			<string>nothing.notes</string>
 		</dict>
@@ -2011,9 +2011,9 @@
 		</dict>
 		<dict>
 			<key>comment</key>
-			<string>Single Quotes</string>
+			<string>Single Quotes, as back tics</string>
 			<key>match</key>
-			<string>(\'[^\']*\')</string>
+			<string>(\`[^\`]*\`)</string>
 			<key>name</key>
 			<string>string.quoted.single.notes</string>
 		</dict>
