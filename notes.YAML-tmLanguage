@@ -517,7 +517,7 @@ patterns:
 - comment: Highlights
   name: nothing.notes
   match: ^[^\#]*(\#+[^\#]*\#*)
-  captures: 
+  captures:
     '1': {name: variable.language.notes}
 - comment: Headers
   name: entity.name.tag.notes
@@ -525,9 +525,9 @@ patterns:
 - comment: Proper headers
   name: entity.name.tag.notes
   match: ^([-=]+\s?\w[\w\s]*[\-=]+)
-- comment: Single Quotes
+- comment: Single Quotes, as back tics
   name: string.quoted.single.notes
-  match: (\'[^\']*\')
+  match: (\`[^\`]*\`)
 - comment: Double Quotes
   name: string.quoted.double.notes
   match: (\"[^\"]*\")
