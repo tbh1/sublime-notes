@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+-----------------------------------------------------------
+    ${1:Title}
+-----------------------------------------------------------
+
+$0
+]]></content>
+<description>Block Title for Notes - Text</description>
+<tabTrigger>---</tabTrigger>
+<scope>text.notes</scope>
+</snippet>
