@@ -4,10 +4,10 @@
 <dict>
 	<key>fileTypes</key>
 	<array>
-		<string>notes</string>
+		<string>tnotes</string>
 	</array>
 	<key>name</key>
-	<string>Notes</string>
+	<string>Notes - Text</string>
 	<key>patterns</key>
 	<array>
 		<dict>
@@ -1797,57 +1797,6 @@
 		</dict>
 		<dict>
 			<key>begin</key>
-			<string>(\[)(xsl|xslt)(\])</string>
-			<key>beginCaptures</key>
-			<dict>
-				<key>1</key>
-				<dict>
-					<key>name</key>
-					<string>string.regexp.notes</string>
-				</dict>
-				<key>2</key>
-				<dict>
-					<key>name</key>
-					<string>markup.bold.notes</string>
-				</dict>
-				<key>3</key>
-				<dict>
-					<key>name</key>
-					<string>string.regexp.notes</string>
-				</dict>
-			</dict>
-			<key>comment</key>
-			<string>XSL</string>
-			<key>end</key>
-			<string>(\[)(\\?\/?(end|xsl|xslt))(\])</string>
-			<key>endCaptures</key>
-			<dict>
-				<key>1</key>
-				<dict>
-					<key>name</key>
-					<string>string.regexp.notes</string>
-				</dict>
-				<key>3</key>
-				<dict>
-					<key>name</key>
-					<string>markup.bold.notes</string>
-				</dict>
-				<key>4</key>
-				<dict>
-					<key>name</key>
-					<string>string.regexp.notes</string>
-				</dict>
-			</dict>
-			<key>patterns</key>
-			<array>
-				<dict>
-					<key>include</key>
-					<string>text.xml.xsl</string>
-				</dict>
-			</array>
-		</dict>
-		<dict>
-			<key>begin</key>
 			<string>(\[)(yaml|yml)(\])</string>
 			<key>beginCaptures</key>
 			<dict>
@@ -2051,7 +2000,7 @@
 		</dict>
 	</array>
 	<key>scopeName</key>
-	<string>source.notes</string>
+	<string>text.notes</string>
 	<key>uuid</key>
 	<string>b9bf3970-f517-46fd-a7f8-ae78fd761f84</string>
 </dict>

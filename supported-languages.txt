@@ -21,7 +21,7 @@ Matlab
 Objective-C
 Ocaml
 Pascal
-Perl
+Perl <-- throws error in console due to reference to Postscript (see Perl.sublime-syntax file)
 PHP
 Python
 R
@@ -33,5 +33,5 @@ SQL
 TCL
 TeX
 XML
-XSL
+XSL <-- removed from default Sublime packages
 YAML

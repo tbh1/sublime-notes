@@ -10,5 +10,7 @@
 - added a Notes - Text syntax that allows spell checking
 	- due to limitations in the TMLanguage structure, we're unable to only do spell checking on text blocks
 	- switch to `Notes - Text` for text heavy notes or to quickly run a spell check
+- Removed XSL support
+	- XSL was dropped from default Sublime packages
 
 ! Happy coding !

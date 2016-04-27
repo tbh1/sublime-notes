@@ -148,6 +148,7 @@ patterns:
     '4': {name: string.regexp.notes}
   patterns:
   - {include: source.go}
+
 - comment: Groovy
   begin: (\[)(groovy|gvy)(\])
   beginCaptures:
@@ -460,19 +461,6 @@ patterns:
     '4': {name: string.regexp.notes}
   patterns:
   - {include: text.xml}
-- comment: XSL
-  begin: (\[)(xsl|xslt)(\])
-  beginCaptures:
-    '1': {name: string.regexp.notes}
-    '2': {name: markup.bold.notes}
-    '3': {name: string.regexp.notes}
-  end: (\[)(\\?\/?(end|xsl|xslt))(\])
-  endCaptures:
-    '1': {name: string.regexp.notes}
-    '3': {name: markup.bold.notes}
-    '4': {name: string.regexp.notes}
-  patterns:
-  - {include: text.xml.xsl}
 - comment: YAML
   begin: (\[)(yaml|yml)(\])
   beginCaptures:
