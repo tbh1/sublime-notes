@@ -4,10 +4,10 @@
 <dict>
 	<key>fileTypes</key>
 	<array>
-		<string>tnotes</string>
+		<string>notes</string>
 	</array>
 	<key>name</key>
-	<string>Notes - Text</string>
+	<string>Notes</string>
 	<key>patterns</key>
 	<array>
 		<dict>
@@ -2000,7 +2000,7 @@
 		</dict>
 	</array>
 	<key>scopeName</key>
-	<string>text.notes</string>
+	<string>source.notes</string>
 	<key>uuid</key>
 	<string>b9bf3970-f517-46fd-a7f8-ae78fd761f84</string>
 </dict>
