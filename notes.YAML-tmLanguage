@@ -527,5 +527,5 @@ patterns:
   match: ([\(\)])
 - comment: Top-level vocab definitions
   name: keyword.other.notes
-  match: ^((\w+\s?\w*\:)(?=[ \t][\w\d]))
+  match: ^(([\w\+-=\/?!@#$%^&()~]+(\s?[\w\+-=\/?!@#$%^&()~]*)*\:)(?=[ \t][\w\d]))
 ...
