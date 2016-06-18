@@ -1986,7 +1986,7 @@
 			<key>comment</key>
 			<string>Top-level vocab definitions</string>
 			<key>match</key>
-			<string>^((\w+\s?\w*\:)(?=[ \t][\w\d]))</string>
+			<string>^(([\w\+-=\/?!@#$%^&amp;()~]+(\s?[\w\+-=\/?!@#$%^&amp;()~]*)*\:)(?=[ \t][\w\d]))</string>
 			<key>name</key>
 			<string>keyword.other.notes</string>
 		</dict>
