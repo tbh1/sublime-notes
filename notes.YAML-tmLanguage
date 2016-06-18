@@ -474,9 +474,13 @@ patterns:
     '4': {name: string.regexp.notes}
   patterns:
   - {include: source.yaml}
-- comment: Urls
-  name: support.class.notes
-  match: (([a-zA-Z]{3,6}3?\:\/\/)?([-a-zA-Z0-9@:%._\+~#=]{2,256}\.[a-z]{2,6}\b([-a-zA-Z0-9@:%_\+.~#?&//=]*)))
+
+# Disable URL highlighting due to an appearant bug with ST
+# - comment: Urls
+#   name: support.class.notes
+#   name: support.function.notes
+#   match: (([a-zA-Z]{3,6}3?\:\/\/)?([-a-zA-Z0-9@:%._\+~#=]{2,256}\.[a-z]{2,6}\b([-a-zA-Z0-9@:%_\+.~#?&//=]*)))
+
 - comment: Comments
   name: comment.notes
   match: (?<!\:)(\/\/.*)
