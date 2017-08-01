@@ -513,7 +513,7 @@ patterns:
     '1': {name: variable.language.notes}
 - comment: Headers
   name: entity.name.tag.notes
-  match: ^([A-Z].*\:)$
+  match: ^(\p{Lu}.*\:)$
 - comment: Proper headers
   name: entity.name.tag.notes
   match: ^([-=]+\s?\w[\w\s]*[\-=]+)

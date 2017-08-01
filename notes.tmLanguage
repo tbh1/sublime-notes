@@ -1938,7 +1938,7 @@
 			<key>comment</key>
 			<string>Headers</string>
 			<key>match</key>
-			<string>^([A-Z].*\:)$</string>
+			<string>^(\p{Lu}.*\:)$</string>
 			<key>name</key>
 			<string>entity.name.tag.notes</string>
 		</dict>
@@ -1997,3 +1997,4 @@
 	<string>b9bf3970-f517-46fd-a7f8-ae78fd761f84</string>
 </dict>
 </plist>
+
