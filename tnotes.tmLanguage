@@ -1970,7 +1970,7 @@
 			<key>comment</key>
 			<string>Warning/critical</string>
 			<key>match</key>
-			<string>(?![a-zA-Z])\!+[^\!\n\r]+\!*</string>
+			<string>(?![a-zA-Z])\!+[^\!\n\r=]+\!*</string>
 			<key>name</key>
 			<string>invalid.deprecated.notes</string>
 		</dict>
