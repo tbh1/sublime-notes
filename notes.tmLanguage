@@ -1938,7 +1938,7 @@
 			<key>comment</key>
 			<string>Headers</string>
 			<key>match</key>
-			<string>^([A-Z].*\:)$</string>
+			<string>^(\p{Lu}.*\:)$</string>
 			<key>name</key>
 			<string>entity.name.tag.notes</string>
 		</dict>
