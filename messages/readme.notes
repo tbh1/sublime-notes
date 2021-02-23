@@ -63,7 +63,7 @@ Code Snippets:
 
 [js]
 	(function (a, b) {
-		return {of.all = {major: 'languages'}
+		return {of.all = {major: 'languages'}};
 	})(alpha, beta);
 [end]
 
