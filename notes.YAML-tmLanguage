@@ -525,7 +525,7 @@ patterns:
   match: (\"[^\"]*\")
 - comment: Warning/critical
   name: invalid.deprecated.notes
-  match: (?![a-zA-Z])\!+[^\!\n\r]+\!*
+  match: (!!([^!]+)!!)
 - comment: Emphasis on parentheses
   name: keyword.operator
   match: ([\(\)])
