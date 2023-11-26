@@ -1,31 +1,31 @@
-#Notes for Sublime Text
+# Notes for Sublime Text
 
-##A _Very_ Simple Language for Taking Notes
+## A _Very_ Simple Language for Taking Notes
 
 If you're like me, you find yourself taking a lot of notes in Sublime. I like syntax highlighting, and I thought it would be cool to see it applied to every day note taking.
 Now you can enjoy your beautiful color schemes while taking everyday notes!
 
 ![alt tag](docs/img/notes-signalr-example.png?raw=true)
 
-##Installation
+## Installation
 Install via Sublime's [Package Manager](https://sublime.wbond.net/installation).
 - Open the command palette: `⌘+shift+p` on MacOS/Linux, `ctrl+shift+p` on Windows
 - type `install`, select `Package Control: Install Package`
 - type `Notes`, select `Notes`
 
-##Usage
+## Usage
 - Open the command palette: `⌘+shift+p` on MacOS/Linux, `ctrl+shift+p` on Windows
 - type `notes`
 - or save as a .notes file
 
-##Features
+## Features
 ![alt tag](docs/img/notes-quicklook.png?raw=true)
 
-##Snippets
+## Snippets
 - generate block title: `--- + TAB`
 - generate code snippet: `[ + TAB`
 
-##Supported languages for snippets
+## Supported languages for snippets
 - Actionscript
 - Applescript
 - ASP
